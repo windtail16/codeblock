@@ -1,6 +1,11 @@
 @charset "utf-8";
+html {
+  
+}
+
 
 .wrap {
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -14,13 +19,31 @@
 
 /* MOBILE MENU */
 .menu-mobile {
-  position: relative;
-  display: none;
+  
 }
+
+.btn-menu {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+.btn-menu span {
+  width: 40px;
+  height: 2px;
+  background: #000;
+  display: block;
+  margin-bottom: 8px;
+}
+
 .menu-mobile .btn-menu {
   position: absolute;
   right: 0;
   top: 20px;
+}
+
+.menu-mobile .dl-menu {
+  position: absolute;
 }
 
 /* DEMO SITE LIST */
