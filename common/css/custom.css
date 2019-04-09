@@ -1,12 +1,27 @@
 @charset "utf-8";
 html {
+  padding: 0;
   
 }
 
+body {
+  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+}
 
 .wrap {
   width: 100%;
   margin: 0 auto;
+}
+
+.right-btn-group {
+  left: auto;
+  right: 20px;
+}
+
+.header-main {
+  width: 100%;
 }
 
 .header-main > div {
@@ -44,6 +59,7 @@ html {
 
 .menu-mobile .dl-menu {
   position: absolute;
+  left: 0;
 }
 
 /* DEMO SITE LIST */
