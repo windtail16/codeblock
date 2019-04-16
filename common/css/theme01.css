@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.top-wrap > div {
+  display: inline-block;
+}
+
+.product-list .card .card-body {
+  position: relative;
+}
+
+.card-body .hidden-layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  background-color: greenyellow;
+  transition: all .2s ease-in-out;
+}
+
+.product-list .card:hover .hidden-layer {
+  opacity: 1;
+}
