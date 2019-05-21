@@ -22,3 +22,28 @@
 .product-list .card:hover .hidden-layer {
   opacity: 1;
 }
+
+/* Mobil nav */
+.btn-menu span {
+  width: 40px;
+  height: 2px;
+  background: #000;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.slide-nav {
+  width: 80%;
+  left: -80%;
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+  top: 0px;
+  transition: all .6s ease-in-out;
+}
+
+.slide-nav.show{
+  left: 0;
+  background-color: rgba(0,0,0,0.8);
+  transition: all .6s ease-in-out;
+}

@@ -25,5 +25,5 @@ $('.bottom-go').click(function () {
 //menu mobile
 $('.btn-menu').click(function() {
   $(this).next('ul.dl-menu').toggleClass('invisible');
-  
 });
+
