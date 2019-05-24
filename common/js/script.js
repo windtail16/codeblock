@@ -30,5 +30,10 @@ $('.btn-menu').click(function() {
 $('.btn-menu').click(function(){
   $('.slide-nav').toggleClass('show');
 })
+
+$('.btn-close').click(function(){
+  $('.slide-nav').toggleClass('show');
+})
+
 // $('.top').load('./top.html');
 $('.bottom').load('./bottom.html');
