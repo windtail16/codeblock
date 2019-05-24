@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" media="screen" href="/common/css/bootstrap.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="/common/css/common.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="/common/css/theme01.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="/common/css/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="/common/css/owl.theme.default.css">
+  <title>Theme 4</title>
+</head>
+<body>
+  <div class="wrap">
+    <!-- TOP//S -->
+    <header class="top">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+          <button class="btn-menu btn btn-light" type="button">
+            <i class="fas fa-bars"></i>
+          </button>
+          <a class="navbar-brand mr-auto ml-sm-auto" href="#">CB THEME 04</a>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="login.html" class="nav-link">LOGIN</a></li>
+            <li class="nav-item"><a href="signup.html" class="nav-link">SIGNUP</a></li>
+            <li class="nav-item"><a href="mypage.html" class="nav-link">MY PAGE</a></li>
+            <li class="nav-item"><a href="cart.html" class="nav-link">CART</a></li>
+            <li class="nav-item"><a href="order.html" class="nav-link">ORDER</a></li>
+          </ul>
+        </nav>
+        <!-- NAV -->
+        <div class="slide-nav p-5">
+          <button class="btn-close btn btn-light">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="navbar-nav text-center">
+            <li class="nav-item"><a href="#" class="nav-link">소개</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">상품</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">뉴스</a></li>
+          </ul>
+        </div>
+        <!-- NAV -->
+      </div>
+    </header>
+    <!-- TOP//E -->
+    <!-- MID//S -->
+    <div class="container mb-5">
+      <!-- CONTENTS//S -->
+      <div class="text-center">
+        <h3>YOUR CART</h3>
+      </div>
+      <!-- LIST//S -->
+      <table class="table table-sm">
+        <thead>
+          <tr>
+            <th colspan="2">Product</th>
+            <th>Price</th>
+            <th class="text-center">Quantity</th>
+            <th class="text-right">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="detail.html">
+                <img data-src="holder.js/95x95?random=yes" class="img-responsive" alt="상품이미지">
+              </a>
+            </td>
+            <td>
+              <a href="detail.html" class="btn btn-link">상품명</a>
+              
+            </td>
+            <td>$34.00</td>
+            <td>
+              <input type="number" class="form-control form-control-sm" readonly value="1">
+            </td>
+            <td>$34.00</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="5" class="text-right">
+              <h4>
+                상품합계
+                <span class="ml-2">89,000원</span>
+              </h4>
+              <h4>
+                배송비
+                <span class="ml-2">3,000원</span>
+              </h4>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+      <!-- LIST//E -->
+      <hr>
+      <div class="row">
+        <div class="col-sm-5 offset-sm-1">
+          <h3>주문자 정보</h3>
+          <div class="form-group">
+            <label for="name">이름</label>
+            <input type="text" id="name" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="moblie1">휴대폰 번호</label>
+            <div class="input-group">
+              <input type="number" id="moblie1" class="form-control">
+              <span class="mt-1 ml-2 mr-2"><i class="fas fa-minus"></i></span>
+              <input type="number" id="moblie2" class="form-control">
+              <span class="mt-1 ml-2 mr-2"><i class="fas fa-minus"></i></span>
+              <input type="number" id="moblie3" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">이메일</label>
+            <input type="email" id="email" class="form-control">
+          </div>
+        </div>
+        <div class="col-sm-5">
+          <div class="clearfix">
+            <h3 class="float-left">
+              배송지 정보
+            </h3>
+            <div class="form-group form-check float-left mt-1 ml-3">
+              <input type="checkbox" class="form-check-input" id="check2">
+              <label class="form-check-label" for="check2">주문자 정보와 동일합니다.</label>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="name">이름</label>
+            <input type="text" id="name" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="postnumber">우편번호</label>
+            <div class="input-group mb-3">
+              <input type="text" id="postnumber" class="form-control">
+              <div class="input-group-append">
+                <button class="btn btn-outline-primary" type="button">검색하기</button>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="address1">주소</label>
+            <input type="text" id="address1" class="form-control mb-2">
+            <input type="text" id="address2" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="moblie1">휴대폰 번호</label>
+            <div class="input-group">
+              <input type="number" id="moblie1" class="form-control">
+              <span class="mt-1 ml-2 mr-2"><i class="fas fa-minus"></i></span>
+              <input type="number" id="moblie2" class="form-control">
+              <span class="mt-1 ml-2 mr-2"><i class="fas fa-minus"></i></span>
+              <input type="number" id="moblie3" class="form-control">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="msg">배송시 요청사항</label>
+            <input type="text" id="msg" class="form-control">
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!-- 약관//S -->
+      <h3>이용약관 및 개인정보처리방침</h3>
+      <p>이용약관</p>
+      <textarea id="" rows="10" class="form-control"></textarea>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="check1">
+        <label class="form-check-label" for="check1">이용약관에 동의합니다.</label>
+      </div>
+      <p>비회원 구매 개인정보처리방침</p>
+      <textarea id="" rows="10" class="form-control"></textarea>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="check2">
+        <label class="form-check-label" for="check2">비회원 구매 개인정보처리방침에 동의합니다.</label>
+      </div>
+      <hr>
+      <!-- 약관//E -->
+      <!-- 결제 FORM//S -->
+      <h3>결제 정보</h3>
+      <!-- 결제 FORM//E -->
+      <div class="row">
+        <div class="col-sm-6 offset-sm-3">
+          <div class="form-group">
+            <label for="price">결제금액</label>
+            <input type="text" id="" value="92,000 원" readonly class="form-control text-right">
+          </div>
+          <div class="form-group">
+            <label for="paymentType">결제방법</label>
+            <select class="form-control" id="paymentType">
+              <option>무통장</option>
+              <option>계좌이체</option>
+              <option>신용카드</option>
+            </select>
+          </div>
+        </div>
+        
+      </div>
+      <hr>
+      <div class="text-center">
+        <a href="#" class="btn btn-lg btn-primary">결제하기</a>
+      </div>
+      
+      <!-- CONTENTS//E -->
+    </div>
+    <!-- MID//E -->
+    <!-- BOTTOM//S -->
+    <footer class="bottom">
+    </footer>
+    <!-- BOTTOM//E -->
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="/common/js/bootstrap.js"></script>
+  <script src="/common/js/holder.js"></script>
+  <script src="/common/js/owl.carousel.js"></script>
+  <script src="/common/js/script.js"></script>
+  <script>
+    $(document).ready(function(){
+      
+      
+    })
+  </script>
+</body>
+</html>
