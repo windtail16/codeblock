@@ -1,4 +1,78 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&display=swap&subset=korean');
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+/* gnb */
+.logo-top-pc {
+  width: 130px;
+  height: 53px;
+  background-image: url('../images/main/logo_top.png');
+  background-position: center center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.gnb {
+  background-color: rgba(228, 228, 228, 1);
+  border-bottom: 1px solid rgba(3, 0, 0, 1)
+}
+
+.gnb .nav-link {
+  color: #000;
+}
+
+/* Visual MAIN */
+.visual-main {
+  background-image: url('../images/main/visual_main.png');
+  background-position: center bottom;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 340px;
+  position: relative;
+  display: table;
+}
+
+.visual-main .visual-main-inner {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+
+.visual-main-text {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  right: 0;
+}
+
+.visual-main .visual-main-inner .visual-main-text h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.start-btn {
+  background-color: rgba(154, 0, 218, 1);
+  color: #fff;
+  padding: 3.5rem;
+  border-radius: 5rem;
+}
+
+/* Service Main */
+.service-main {
+  background-color: rgba(228, 228, 228, 1);
+}
+
+/* Info Banner */
+.info-banner-main {
+  background-image: url('../images/main/info_banner_01.png');
+  background-position: center bottom;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #fff;
+}
 
 .right-btn-group {
   left: auto;
@@ -51,4 +125,12 @@
 .demo-list {
   width: 95%;
   margin: 0 auto;
+}
+
+/* PC */
+@media (min-width: 768px) {
+  .visual-main {
+    
+    height: 940px;
+  }
 }

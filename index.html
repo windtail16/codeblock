@@ -14,65 +14,80 @@
   <!-- WRAP//S -->
   <div class="wrap">
     <!-- TOP//S -->
-    <nav id="navbar-gnb" class="navbar fixed-top bg-light">
+    <nav class="navbar navbar-expand-md fixed-top gnb">
       <div class="container">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
         <!-- DESCTOP NAV//S -->
-        <div class="header-main text-center clearfix">
-          <div class="float-left d-none d-sm-block">
-            <ul class="nav">
-              <li class="nav-item"><a href="#demo" class="nav-link smooth-link">Demo Homepage &amp; Shop</a></li>
-              <li class="nav-item"><a href="#featured" class="nav-link smooth-link">Featured</a></li>
-            </ul>
-          </div>
-          <div class="float-none logo">
-            <a href="/" rel="home" class="navbar-brand">
-              CODE BLOCK
-            </a>
-          </div>
-          <div class="float-right d-none d-sm-block">
-            <ul class="nav">
-              <li class="nav-item"><a href="#shop" class="nav-link smooth-link">Shop</a></li>
-              <li class="nav-item"><a href="#" class="nav-link" target="_blank">Purchase</a></li>
-              <li class="nav-item"><a href="#" class="nav-link" target="_blank">Documentation</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- DESCTOP NAV//E -->
-        <!-- MOBILE NAV//S -->
-        <div class="menu-mobile d-block d-sm-none">
-          <button class="btn-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-          <ul class="dl-menu invisible">
-            <li><a href="#demo" class="smooth-link">Demo</a></li> 
-            <li><a href="#featured" class="smooth-link">Featured</a></li>
-            <li><a href="#shop" class="smooth-link">Shop</a></li>
-            <li><a href="#">Purchase</a></li>
-            <li><a href="#" target="_blank">Documentation</a></li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav navbar-nav">
+            <li class="nav-item"><a href="#demo" class="nav-link smooth-link">Demo Homepage &amp; Shop</a></li>
+            <li class="nav-item"><a href="#featured" class="nav-link smooth-link">Featured</a></li>
+          </ul>
+          <ul class="nav navbar-nav mx-auto">
+              <li class="nav-item"><a class="nav-link text-hide logo-top-pc" href="/">CODE BLOCK</a></li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li class="nav-item"><a href="#shop" class="nav-link smooth-link">Shop</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" target="_blank">Purchase</a></li>
           </ul>
         </div>
-        <!-- MOBILE NAV//E -->
+        <!-- DESCTOP NAV//E -->
       </div>
     </nav>
     <!-- TOP//E -->
     <!-- MAIN BANNER//S -->
-    <div>
-      <img data-src="holder.js/100px750" alt="Banner image" class="img-responsive">
+    <div class="visual-main">
+      <div class="visual-main-inner">
+        <div class="visual-main-text">
+          <div class="container text-center">
+            <h4 class="mb-0">쉽게 만드는 쇼핑몰 플랫폼, creative shop CRESH</h4>  
+            <h1>CRESH WEBSITE</h1>
+          </div>
+        </div>
+        <div class="container text-center">
+          <a href="#" class="btn start-btn">Start<br>CRESH</a>
+        </div>
+        
+      </div>
     </div>
     <!-- MAIN BANNER//E -->
     <div data-spy="scroll" data-target="#navbar-gnb" data-offset="0">
-       <!-- DEMO WRAP//S -->
-      <div id="demo">
+      <!-- SERVICE//S -->
+      <div class="service-main pt-5 pb-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h3>CRESH Service</h3>
+            <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+              <img src="common/images/main/service_01.png" alt="service 01" class="mb-2">
+              <p>Lorem Ipsum</p>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+              <img src="common/images/main/service_02.png" alt="service 02" class="mb-2">
+              <p>Lorem Ipsum</p>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+              <img src="common/images/main/service_03.png" alt="service 03" class="mb-2">
+              <p>Lorem Ipsum</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SERVICE//E -->
+      <!-- DEMO WRAP//S -->
+      <div id="demo" class="py-5">
         <div class="container text-center">
-          <h3>DEMOS</h3>
-          <p>homepages</p>
+          <p class="mb-0">+33 homepages</p>
+          <h3 class="mt-0">HOME DEMOS</h3>
         </div>
         <!-- DEMO SITE LIST//S -->
-        <div class="container-fluid demo-list">
+        <div class="container demo-list">
           <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="col-md-4 col-sm-6 col-xs-12">
               <a href="/sub/theme04/" class="card" target="_blank">
                 <img data-src="holder.js/100px200?random=yes" class="card-img-top img-responsive" alt="Theme Img">
                 <div class="card-body">
@@ -80,7 +95,7 @@
                 </div>
               </a>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="col-md-4 col-sm-6 col-xs-12">
               <a href="/sub/theme03/" class="card" target="_blank">
                 <img data-src="holder.js/100px200?random=yes" class="card-img-top img-responsive" alt="Theme Img">
                 <div class="card-body">
@@ -88,7 +103,7 @@
                 </div>
               </a>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="col-md-4 col-sm-6 col-xs-12">
               <a href="/sub/theme02/" class="card" target="_blank">
                 <img data-src="holder.js/100px200?random=yes" class="card-img-top img-responsive" alt="Theme Img">
                 <div class="card-body">
@@ -96,7 +111,7 @@
                 </div>
               </a>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="col-md-4 col-sm-6 col-xs-12">
               <a href="/sub/theme01/" class="card" target="_blank">
                 <img data-src="holder.js/100px200?random=yes" class="card-img-top img-responsive" alt="Theme Img">
                 <div class="card-body">
@@ -109,18 +124,16 @@
         <!-- DEMO SITE LIST//E -->
       </div>
       <!-- DEMO WRAP//E -->
-      <!-- FEATURED//S -->
-      <div id="featured">
-        <div class="container mt-5 mb-5">
-          <h4>WHY CHOOSE SPRING</h4>
-          <h2>
-            Build Your Beautiful Website<br>
-            With Spring
-          </h2>
-          <a class="btn btn-primary btn-lg" href="#" target="_blank">PURCHASE SPRING $29</a>
+      <!-- INFO BANNER//S -->
+      <div id="featured" class="info-banner-main py-5">
+        <div class="container my-5">
+          <h3>Build Your Beautiful Website<br>With Cresh</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec orci pulvinar, <br>
+            bibendum purus sed, porttitor nisl. Praesent pulvinar tristique euismod. </p>
+          <a href="#" class="btn btn-light">Lorem Ipsum</a>
         </div>
       </div>
-      <!-- FEATURED//E -->
+      <!-- INFO BANNER//E -->
       <div class="container text-center">
         <div>
           Enhanced aesthetic appeal and high <br>functionality are the pillars of <span>Spring's design.</span> 
