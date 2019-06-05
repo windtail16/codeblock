@@ -4,6 +4,12 @@
 body {
   font-family: 'Noto Sans KR', sans-serif;
 }
+
+/* COMMON STYLE */
+.gray-bg {
+  background-color: #ececec;
+}
+
 /* gnb */
 .logo-top-pc {
   width: 130px;
@@ -72,6 +78,28 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   color: #fff;
+}
+
+/* Product */
+.produc-01-bg {
+  background-image: url('../images/main/product_01_bg.png');
+  background-position: center right;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.produc-02-bg {
+  background-image: url('../images/main/product_02_bg.png');
+  background-position: center left;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.produc-03-bg {
+  background-image: url('../images/main/product_03_bg.png');
+  background-position: center center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .right-btn-group {
