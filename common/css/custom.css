@@ -102,6 +102,14 @@ body {
   background-repeat: no-repeat;
 }
 
+/* Options */
+.options-03-bg {
+  background-image: url('../images/main/options_03_bg.png');
+  background-position: center center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
 .right-btn-group {
   left: auto;
   right: 20px;
