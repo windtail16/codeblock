@@ -195,6 +195,15 @@ body {
   right: 20px;
 }
 
+
+/* Signup Form */
+.signin-form-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
 .header-main {
   width: 100%;
 }
