@@ -14,23 +14,28 @@
   <!-- WRAP//S -->
   <div class="wrap">
     <!-- TOP//S -->
-    <nav class="navbar navbar-expand-md fixed-top gnb">
+    <nav class="navbar navbar-expand-lg fixed-top gnb">
       <div class="container">
+        <a class="navbar-brand d-block d-lg-none text-hide logo-top" href="/">CODE BLOCK</a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
         <!-- DESCTOP NAV//S -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav ml-auto">
             <li class="nav-item"><a href="#demo" class="nav-link smooth-link">Demo Homepage &amp; Shop</a></li>
             <li class="nav-item"><a href="#featured" class="nav-link smooth-link">Featured</a></li>
           </ul>
-          <ul class="nav navbar-nav mx-auto">
-              <li class="nav-item"><a class="nav-link text-hide logo-top-pc" href="/">CODE BLOCK</a></li>
+          <ul class="nav navbar-nav mx-auto d-none d-lg-block">
+            <li class="nav-item"><a class="nav-link text-hide logo-top" href="/">CODE BLOCK</a></li>
+          </ul>
+          <ul class="nav navbar-nav mr-auto">
+            <li class="nav-item"><a href="#shop" class="nav-link smooth-link">Shop</a></li>
+            <li class="nav-item"><a href="#purchase" class="nav-link smooth-link">Purchase</a></li>
           </ul>
           <ul class="nav navbar-nav">
-            <li class="nav-item"><a href="#shop" class="nav-link smooth-link">Shop</a></li>
-            <li class="nav-item"><a href="#" class="nav-link" target="_blank">Purchase</a></li>
+            <li class="nav-item"><a class="nav-link signup-btn" href="signup.html">시작하기</a></li>
+            <li class="nav-item"><a class="nav-link" href="login.html">로그인</a></li>
           </ul>
         </div>
         <!-- DESCTOP NAV//E -->
@@ -46,7 +51,7 @@
             <h1>CRESH WEBSITE</h1>
           </div>
         </div>
-        <div class="container text-center">
+        <div class="container text-center d-none d-sm-block">
           <a href="#" class="btn start-btn">Start<br>CRESH</a>
         </div>
         
@@ -58,20 +63,22 @@
       <div class="service-main pt-5 pb-5">
         <div class="container">
           <div class="text-center mb-5">
-            <h3>CRESH Service</h3>
+            <h3>
+              <strong>CRESH Service</strong>
+            </h3>
             <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
           </div>
           <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
-              <img src="common/images/main/service_01.png" alt="service 01" class="mb-2">
+            <div class="col-4 text-center">
+              <img src="common/images/main/service_01.png" alt="service 01" class="img-fluid mb-2">
               <p>Lorem Ipsum</p>
             </div>
-            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
-              <img src="common/images/main/service_02.png" alt="service 02" class="mb-2">
+            <div class="col-4 text-center">
+              <img src="common/images/main/service_02.png" alt="service 02" class="img-fluid mb-2">
               <p>Lorem Ipsum</p>
             </div>
-            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
-              <img src="common/images/main/service_03.png" alt="service 03" class="mb-2">
+            <div class="col-4 text-center">
+              <img src="common/images/main/service_03.png" alt="service 03" class="img-fluid mb-2">
               <p>Lorem Ipsum</p>
             </div>
           </div>
@@ -79,49 +86,62 @@
       </div>
       <!-- SERVICE//E -->
       <!-- DEMO WRAP//S -->
-      <div id="demo" class="py-5">
-        <div class="container text-center">
-          <p class="mb-0">+33 homepages</p>
-          <h3 class="mt-0">HOME DEMOS</h3>
-        </div>
+      <div id="demo">
+       
         <!-- DEMO SITE LIST//S -->
-        <div class="container demo-list">
-          <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12 mb-4">
-              <a href="/sub/theme04/" class="card" target="_blank">
-                <img data-src="holder.js/100px200?random=yes" class="card-img-top img-responsive" alt="Theme Img">
-                <div class="card-body">
-                  <h5 class="card-title">Theme 4 title</h5>
+        <div class="container">
+          <div class="text-center my-5">
+            <p class="mb-0 text-violet">+33 homepages</p>
+            <h3 class="mt-0">HOME DEMOS</h3>
+          </div>
+          <div class="row demo-list">
+            <div class="col-12 col-md-6 col-lg-4">
+              <a href="/sub/theme04/" class="demo-item" target="_blank">
+                <div class="img-wrap">
+                  <img data-src="holder.js/100px200?random=yes" class="img-responsive" alt="Theme Img">
+                </div>
+                
+                <div class="text-layer py-3">
+                  <h5><strong>Demo #4</strong> title</h5>
                 </div>
               </a>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 mb-4">
-              <a href="/sub/theme03/" class="card" target="_blank">
-                <img data-src="holder.js/100px200?random=yes" class="card-img-top img-responsive" alt="Theme Img">
-                <div class="card-body">
-                  <h5 class="card-title">Theme 3 title</h5>
+            <div class="col-12 col-md-6 col-lg-4">
+              <a href="/sub/theme03/" class="demo-item" target="_blank">
+                <div class="img-wrap">
+                  <img data-src="holder.js/100px200?random=yes" class="img-responsive" alt="Theme Img">
+                </div>
+                
+                <div class="text-layer py-3">
+                  <h5><strong>Demo #3</strong> title</h5>
                 </div>
               </a>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 mb-4">
-              <a href="/sub/theme02/" class="card" target="_blank">
-                <img data-src="holder.js/100px200?random=yes" class="card-img-top img-responsive" alt="Theme Img">
-                <div class="card-body">
-                  <h5 class="card-title">Theme 2 title</h5>
+            <div class="col-12 col-md-6 col-lg-4">
+              <a href="/sub/theme02/" class="demo-item" target="_blank">
+                <div class="img-wrap">
+                  <img data-src="holder.js/100px200?random=yes" class="img-responsive" alt="Theme Img">
+                </div>
+                
+                <div class="text-layer py-3">
+                  <h5><strong>Demo #2</strong> title</h5>
                 </div>
               </a>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12 mb-4">
-              <a href="/sub/theme01/" class="card" target="_blank">
-                <img data-src="holder.js/100px200?random=yes" class="card-img-top img-responsive" alt="Theme Img">
-                <div class="card-body">
-                  <h5 class="card-title">Theme 1 title</h5>
+            <div class="col-12 col-md-6 col-lg-4">
+              <a href="/sub/theme01/" class="demo-item" target="_blank">
+                <div class="img-wrap">
+                  <img data-src="holder.js/100px200?random=yes" class="img-responsive" alt="Theme Img">
+                </div>
+                
+                <div class="text-layer py-3">
+                  <h5><strong>Demo #1</strong> title</h5>
                 </div>
               </a>
             </div>
           </div>
           <p class="text-center">
-            <a href="#" class="btn btn-light">view more</a>
+            <a href="#" class="btn btn-custom btn-white">view more</a>
           </p>
           
         </div>
@@ -132,9 +152,10 @@
       <div id="featured" class="info-banner-main py-5">
         <div class="container my-5">
           <h3>Build Your Beautiful Website<br>With Cresh</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec orci pulvinar, <br>
+          <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec orci pulvinar, <br>
             bibendum purus sed, porttitor nisl. Praesent pulvinar tristique euismod. </p>
-          <a href="#" class="btn btn-light">Lorem Ipsum</a>
+          <p><a href="#" class="btn btn-custom btn-white">Lorem Ipsum</a></p>
+          
         </div>
       </div>
       <!-- INFO BANNER//E -->
@@ -143,15 +164,17 @@
       <div id="shop">
         <div class="container-fluid">
           <div class="text-center my-5">
-            <h3>The most advanced <br>Shopping Mall Template</h3>
+            <h3>
+              <strong>The most advanced <br>Shopping Mall Template</strong>
+            </h3>
           </div>
-          <div class="row d-flex align-items-stretch">
-            <div class="col-sm-7 col-xs-12 produc-01-bg text-right py-3">
+          <div class="row align-items-center gray-bg mb-5">
+            <div class="col-sm-7 col-xs-12 white-bg produc-01-bg text-right py-4">
               <img src="common/images/main/product_01.png" class="img-fluid" alt="Product">
             </div>
-            <div class="col-sm-5 col-xs-12 text-right gray-bg">
+            <div class="col-sm-5 col-xs-12 text-right">
               <div class="row">
-                <div class="col-xl-6">
+                <div class="col-12 col-xl-6">
                   <h4>
                     <span class="text-violet">#01</span>
                     Product Quick View
@@ -166,8 +189,8 @@
               </div>
             </div>
           </div>
-          <div class="row d-flex align-items-stretch align-items-center">
-            <div class="col-sm-5 col-xs-12 text-left gray-bg">
+          <div class="row align-items-center gray-bg mb-5">
+            <div class="col-sm-5 col-xs-12 text-left">
               <div class="row justify-content-end">
                 <div class="col-xl-6">
                   <h4>
@@ -182,18 +205,16 @@
                   </p>
                 </div>
               </div>
-              
-             
             </div>
-            <div class="col-sm-7 col-xs-12 produc-02-bg text-left py-3">
+            <div class="col-sm-7 col-xs-12 white-bg produc-02-bg text-left py-3">
               <img src="common/images/main/product_02.png" class="img-fluid" alt="Product">
             </div>
           </div>
         </div>
         <div class="produc-03-bg">
-          <div class="container text-center">
+          <div class="container text-center pt-5">
             <h3>
-              Responsive Design
+              <strong>Responsive Design</strong>
             </h3>
             <img src="common/images/main/product_03.png" class="img-fluid" alt="Product">
           </div>
@@ -204,27 +225,25 @@
       <!-- OPTIONS//S -->
       <div class="unlimited-options">
         <div class="container">
-          <div class="text-center">
-            <h3>Unlimited Options</h3>
+          <div class="text-center my-5">
+            <h3>UNLIMITED OPTIONS</h3>
             <p>12 kinds of option</p>
           </div>
-          <div class="row align-items-center">
+          <div class="row align-items-center mb-5">
             <div class="col-sm-4 col-xs-12">
               <h4>
                 <span class="text-violet">#01</span>
                 Options
               </h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetu
-                r adipiscing elit. Duis ac justo ex.
-                Integer purus tortor,
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac justo ex.Integer purus tortor,
               </p>
             </div>
             <div class="col-sm-8 col-xs-12">
               <img src="common/images/main/options_01.png" class="img-fluid" alt="Options">
             </div>
           </div>
-          <div class="row align-items-center">
+          <div class="row align-items-center mb-5">
             <div class="col-sm-8 col-xs-12">
               <img src="common/images/main/options_02.png" class="img-fluid" alt="Options">
             </div>
@@ -234,16 +253,14 @@
                 Options
               </h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetu
-                r adipiscing elit. Duis ac justo ex.
-                Integer purus tortor,
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac justo ex.Integer purus tortor,
               </p>
             </div>
             
           </div>
         </div>
         <div class="options-03-bg py-5">
-          <div class="container text-right">
+          <div class="container text-right text-white">
             <h3 class="my-5">BLOG STYLE</h3>
           </div>
         </div>
@@ -260,14 +277,45 @@
       </div>
       <!-- PURCHASE//E -->
       <!-- FOOTER//S -->
-      <footer>
+      <footer class="cresh-footer text-white py-4">
         <div class="container">
-          <address>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor augue nec tempor rhoncus.
-            Proin at vehicula leo. Etiam sed rhoncus mi. Aenean placerat nunc eget nisi volutpat, nec blandit tellus finibus.
-            Phasellus ligula orci, vulputate et faucibus vitae, porta id enim. Ut massa justo, volutpat id imperdiet quis, porttitor vitae orci.
-          </address>
-          ⓒ Codeblock. ALL RIGHTS RESERVED.
+          <nav class="row">
+            <div class="col-5 col-sm-2">
+              <h5 class="text-hide logo-bottom mb-3">CODE BLOCK</h5>
+            </div>
+            <div class="col-7 col-sm-10">
+              <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#">사이트맵</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">고객센터</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">제휴문의</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">이용약관</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">개인정보처리방칙</a></li>
+              </ul>
+            </div> 
+          </nav>
+          <div class="row">
+            <div class="col-12">
+              <!-- SNS LINK//S -->
+              <ul class="list-inline sns-btn-group mb-2">
+                <li class="list-inline-item"><a class="btn btn-sm" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a class="btn btn-sm" href="#"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a class="btn btn-sm" href="#"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+              <!-- SNS LINK//E -->
+            </div>
+            <div class="col-12">
+              <!-- ADDRESS//S -->
+              <address>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor augue nec tempor rhoncus.
+                Proin at vehicula leo. Etiam sed rhoncus mi. Aenean placerat nunc eget nisi volutpat, nec blandit tellus finibus.
+                Phasellus ligula orci, vulputate et faucibus vitae, porta id enim. Ut massa justo, volutpat id imperdiet quis, porttitor vitae orci.
+              </address>
+              ⓒ Codeblock. ALL RIGHTS RESERVED.
+              <!-- ADDRESS//E -->
+            </div>
+          </div>
+          
+          
         </div>
         
       </footer>
@@ -276,7 +324,7 @@
     <!-- TOP/BOTTOM BTN//S -->
     <div class="right-btn-group fixed-bottom">
       <ul class="list-unstyled">
-        <li><a href="#" class="btn btn-light top-go"><i class="fas fa-chevron-up fa-1x"></i></a></li>
+        <li class="mb-2"><a href="#" class="btn btn-light top-go"><i class="fas fa-chevron-up fa-1x"></i></a></li>
         <li><a href="#" class="btn btn-light bottom-go"><i class="fas fa-chevron-down fa-1x"></i></a></li>
       </ul>
     </div>
@@ -291,8 +339,9 @@
   <script>
     $(document).ready(function(){
       //scroll
-      
-      
+      var windowHeight = $(window).height();
+      console.log(windowHeight);
+      $(".visual-main").css("height",windowHeight);
     })
   </script>
 </body>
