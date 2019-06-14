@@ -14,3 +14,29 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+
+.gray-bg {
+  background-color: #ececec;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.text-violet {
+  color: #9a00da;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.btn-custom {
+  border-radius: 0;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #000;
+  border-color: #030000;
+}
