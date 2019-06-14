@@ -152,7 +152,7 @@ body {
 .produc-03-bg {
   background-image: url('../images/main/product_03_bg.png');
   background-position: center center;
-  background-size: 100% auto;
+  background-size: auto 100%;
   background-repeat: no-repeat;
 }
 
@@ -262,6 +262,10 @@ body {
   
   .visual-main .visual-main-inner .visual-main-text h1 {
     font-size: 3.5rem;
+  }
+
+  .produc-03-bg {
+    background-size: 100% auto;
   }
 }
 
