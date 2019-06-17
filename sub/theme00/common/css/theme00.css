@@ -1,11 +1,35 @@
 @charset "utf-8";
-/* MAIN */
-.top-wrap > div {
-  display: inline-block;
+/* gnb */
+.logo-top {
+  width: 130px;
+  height: 53px;
+  background-image: url('/common/images/main/logo_top.png');
+  background-position: center center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.gnb {
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(3, 0, 0, 1)
+}
+
+.gnb .nav-link {
+  color: #000;
+}
+
+.product-list .card {
+  border-radius: 0;
+  position: relative;
+  border-color: #bfbfbf;
+}
+
+.product-list .card .card-img-top {
+  border-radius: 0;
 }
 
 .product-list .card .card-body {
-  position: relative;
+  border-top: 1px #bfbfbf solid
 }
 
 .card-body .hidden-layer {
@@ -15,38 +39,31 @@
   left: 0;
   right: 0;
   opacity: 0;
-  background-color: greenyellow;
+  background-color: #646464;
   transition: all .2s ease-in-out;
+}
+
+.card-body .hidden-layer h5 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.card-body .hidden-layer .hidden-layer-inner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.card-body .hidden-layer .hidden-layer-inner a{
+  color: #fff;
 }
 
 .product-list .card:hover .hidden-layer {
   opacity: 1;
 }
 
-/* Mobil nav */
-.btn-menu span {
-  width: 40px;
-  height: 2px;
-  background: #000;
-  display: block;
-  margin-bottom: 8px;
-}
-
-.slide-nav {
-  width:100%;
-  left: -100%;
-  height: 100vh;
-  position: fixed;
-  z-index: 20;
-  top: 0px;
-  transition: all .6s ease-in-out;
-}
-
-.slide-nav.show{
-  left: 0;
-  background-color: rgba(0,0,0,0.8);
-  transition: all .6s ease-in-out;
-}
 
 /* FORM */
 .signin-form-wrap {
@@ -121,4 +138,39 @@
 .side-wrap.owl-carousel .owl-dots .owl-dot.active span, 
 .side-wrap.owl-carousel .owl-dots .owl-dot:hover span {
   background: #4d4d4d;
+}
+
+.filters .mb-0.text-violet {
+  cursor: pointer;
+}
+
+.filters select {
+  border: none;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  line-height: 1.5;
+}
+
+/* Footer */
+.cresh-footer {
+  
+}
+
+.cresh-footer .nav-link {
+  color: #707070;
+}
+
+.logo-bottom {
+  width: 130px;
+  height: 53px;
+  background-image: url('/common/images/main/logo_bottom.png');
+  background-position: center center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.sns-btn-group .btn {
+  color: #bfbfbf;
+
 }
