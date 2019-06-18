@@ -25,20 +25,40 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="nav navbar-nav ml-auto">
             <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">CATALOG</a></li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                CATALOG
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">하위메뉴1</a>
+                <a class="dropdown-item" href="#">하위메뉴2</a>
+                <a class="dropdown-item" href="#">하위메뉴3</a>
+              </div>
+            </li>
             <li class="nav-item"><a href="#" class="nav-link">ABOUT US</a></li>
           </ul>
           <ul class="nav navbar-nav mx-auto d-none d-lg-block">
             <li class="nav-item"><a class="nav-link text-hide logo-top" href="/">CODE BLOCK</a></li>
           </ul>
           <ul class="nav navbar-nav mr-auto">
-            <li class="nav-item"><a href="#" class="nav-link">PRODUCT</a></li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                PRODUCT
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">하위메뉴1</a>
+                <a class="dropdown-item" href="#">하위메뉴2</a>
+                <a class="dropdown-item" href="#">하위메뉴3</a>
+              </div>
+            </li>
             <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
             
           </ul>
           
         </div>
         <!-- DESCTOP NAV//E -->
+      </div>
+      <div class="gnb-bg">
       </div>
     </nav>
     <!-- TOP//E -->
@@ -520,7 +540,38 @@
   <script src="/common/js/script.js"></script>
   <script>
   $(document).ready(function(){
-    // var saleBanner = $('.owl-carousel');
+    var winWidth = $(window).width();
+    
+    console.log(winWidth);
+    if (winWidth >= 980) {
+      $(".gnb").hover(function () {
+        $(".gnb .dropdown-menu").toggleClass("show");
+        $(".gnb .gnb-bg").toggleClass("show");
+      });
+
+      $( ".gnb" ).mouseleave(function() {
+        $(".gnb .dropdown-menu").removeClass("show");
+        $(".gnb .gnb-bg").removeClass("show");  
+      }); 
+    }
+    
+    $(window).resize(function(){
+      if (winWidth >= 980) {
+        $(".gnb").hover(function () {
+          $(".gnb .dropdown-menu").toggleClass("show");
+          $(".gnb .gnb-bg").toggleClass("show");
+        });
+
+        $( ".gnb" ).mouseleave(function() {
+          $(".gnb .dropdown-menu").removeClass("show");
+          $(".gnb .gnb-bg").removeClass("show");  
+        }); 
+      }
+    })
+    
+    
+    
+    
 
     var owl = $('.owl-carousel');
     owl.owlCarousel({
