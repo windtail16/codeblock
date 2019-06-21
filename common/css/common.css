@@ -40,3 +40,45 @@ body {
   color: #000;
   border-color: #030000;
 }
+
+.btn-black,
+.btn-black:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.btn-violet,
+.btn-violet:hover {
+  background-color: #8200de;
+  color: #fff;
+}
+
+/* HR */
+hr.black-1 {
+  border-top: 1px solid rgba(0, 0, 0, 1);
+}
+hr.black-2 {
+  border-top: 2px solid rgba(0, 0, 0, 1);
+}
+
+/* 상품 썸네일 캐러셀 */
+.goods-thumbnails .carousel-indicators {
+  margin-top: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  position: inherit;
+}
+
+.goods-thumbnails .carousel-indicators li {
+  height: auto;
+  max-width: 100px;
+  width: 100px;
+  border: 2px solid transparent;
+
+}
+.goods-thumbnails .carousel-indicators img {
+  max-width: 100px;
+  height: 50px;
+  overflow: hidden;
+  display: block;
+}

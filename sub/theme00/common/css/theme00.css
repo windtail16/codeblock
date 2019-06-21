@@ -183,6 +183,58 @@
 
 }
 
+/* TITLE UNIT */
+.title-unit .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+}
+
+.title-unit .breadcrumb a {
+  color: #000;
+}
+
+.title-unit .breadcrumb-item + .breadcrumb-item::before {
+  color: #000000;
+  content: ">";
+}
+
+.breadcrumb-item.active {
+  color: #8200de;
+}
+
+/* Detail Page */
+.goods-unit .goods-options {
+  
+}
+
+.goods-unit .goods-options .custom-select {
+  border-color: #000000;
+  border-radius: 0;
+}
+
+.goods-quantity {
+  
+}
+
+.goods-unit .total-price .form-control-plaintext {
+  font-weight: bold;
+}
+
+.goods-unit .input-group-sm .btn {
+  border-radius: 0;
+}
+
+.goods-unit .get-buy-btn .btn-group {
+  width: 100%;
+}
+
+
+/* Thumbnail Carousel */
+.goods-thumbnails .carousel-indicators li.active {
+  border-color: #8200de;
+}
+
+
 /* Over PC */
 @media (min-width: 992px) {
   .gnb .dropdown-toggle::after {

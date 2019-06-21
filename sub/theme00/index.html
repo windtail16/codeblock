@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" media="screen" href="/common/css/bootstrap.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="/common/css/common.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="common/css/theme00.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="./common/css/theme00.css">
   <link rel="stylesheet" type="text/css" media="screen" href="/common/css/owl.carousel.css">
   <link rel="stylesheet" type="text/css" media="screen" href="/common/css/owl.theme.default.css">
   <title>Theme 0</title>
@@ -99,7 +99,7 @@
                 <button type="button" class="btn sale-item-next"><i class="fas fa-angle-right"></i></button>
               </div>
             </div>
-            <div class="owl-carousel side-wrap pt-3 pl-3 pr-3 pb-1">
+            <div class="owl-carousel sales-off side-wrap pt-3 pl-3 pr-3 pb-1">
               <ul class="item list-unstyled">
                 <li class="media">
                   <a href="#">
@@ -304,7 +304,9 @@
                     <h6 class="card-title mb-1">Product name</h6>
                     <p class="text-violet mb-0">￦30,000</p>
                     <div class="hidden-layer">
-                      <h5 class="text-white">Product 02</h5>
+                      <h5 class="text-white">
+                        <a href="./detail.html">Product 02</a>                   
+                      </h5>
                       <div class="hidden-layer-inner">
                         <dl class="row mb-0">
                           <dt class="col-7 text-right">
@@ -327,7 +329,7 @@
                     <h6 class="card-title mb-1">Product name</h6>
                     <p class="text-violet mb-0">￦30,000</p>
                     <div class="hidden-layer">
-                      <h5 class="text-white">Product 02</h5>
+                      <h5 class="text-white"><a href="./detail.html">Product 02</a></h5>
                       <div class="hidden-layer-inner">
                         <dl class="row mb-0">
                           <dt class="col-7 text-right">
@@ -350,7 +352,7 @@
                     <h6 class="card-title mb-1">Product name</h6>
                     <p class="text-violet mb-0">￦30,000</p>
                     <div class="hidden-layer">
-                      <h5 class="text-white">Product 02</h5>
+                      <h5 class="text-white"><a href="./detail.html">Product 02</a></h5>
                       <div class="hidden-layer-inner">
                         <dl class="row mb-0">
                           <dt class="col-7 text-right">
@@ -373,7 +375,7 @@
                     <h6 class="card-title mb-1">Product name</h6>
                     <p class="text-violet mb-0">￦30,000</p>
                     <div class="hidden-layer">
-                      <h5 class="text-white">Product 02</h5>
+                      <h5 class="text-white"><a href="./detail.html">Product 02</a></h5>
                       <div class="hidden-layer-inner">
                         <dl class="row mb-0">
                           <dt class="col-7 text-right">
@@ -396,7 +398,7 @@
                     <h6 class="card-title mb-1">Product name</h6>
                     <p class="text-violet mb-0">￦30,000</p>
                     <div class="hidden-layer">
-                      <h5 class="text-white">Product 02</h5>
+                      <h5 class="text-white"><a href="./detail.html">Product 02</a></h5>
                       <div class="hidden-layer-inner">
                         <dl class="row mb-0">
                           <dt class="col-7 text-right">
@@ -419,7 +421,7 @@
                     <h6 class="card-title mb-1">Product name</h6>
                     <p class="text-violet mb-0">￦30,000</p>
                     <div class="hidden-layer">
-                      <h5 class="text-white">Product 02</h5>
+                      <h5 class="text-white"><a href="./detail.html">Product 02</a></h5>
                       <div class="hidden-layer-inner">
                         <dl class="row mb-0">
                           <dt class="col-7 text-right">
@@ -442,7 +444,7 @@
                     <h6 class="card-title mb-1">Product name</h6>
                     <p class="text-violet mb-0">￦30,000</p>
                     <div class="hidden-layer">
-                      <h5 class="text-white">Product 02</h5>
+                      <h5 class="text-white"><a href="./detail.html">Product 02</a></h5>
                       <div class="hidden-layer-inner">
                         <dl class="row mb-0">
                           <dt class="col-7 text-right">
@@ -465,7 +467,7 @@
                     <h6 class="card-title mb-1">Product name</h6>
                     <p class="text-violet mb-0">￦30,000</p>
                     <div class="hidden-layer">
-                      <h5 class="text-white">Product 02</h5>
+                      <h5 class="text-white"><a href="./detail.html">Product 02</a></h5>
                       <div class="hidden-layer-inner">
                         <dl class="row mb-0">
                           <dt class="col-7 text-right">
@@ -537,43 +539,11 @@
   <script src="/common/js/bootstrap.js"></script>
   <script src="/common/js/holder.js"></script>
   <script src="/common/js/owl.carousel.js"></script>
-  <script src="/common/js/script.js"></script>
+  <script src="./common/script/theme00.js"></script>
   <script>
   $(document).ready(function(){
-    var winWidth = $(window).width();
-    
-    console.log(winWidth);
-    if (winWidth >= 980) {
-      $(".gnb").hover(function () {
-        $(".gnb .dropdown-menu").toggleClass("show");
-        $(".gnb .gnb-bg").toggleClass("show");
-      });
-
-      $( ".gnb" ).mouseleave(function() {
-        $(".gnb .dropdown-menu").removeClass("show");
-        $(".gnb .gnb-bg").removeClass("show");  
-      }); 
-    }
-    
-    $(window).resize(function(){
-      if (winWidth >= 980) {
-        $(".gnb").hover(function () {
-          $(".gnb .dropdown-menu").toggleClass("show");
-          $(".gnb .gnb-bg").toggleClass("show");
-        });
-
-        $( ".gnb" ).mouseleave(function() {
-          $(".gnb .dropdown-menu").removeClass("show");
-          $(".gnb .gnb-bg").removeClass("show");  
-        }); 
-      }
-    })
-    
-    
-    
-    
-
-    var owl = $('.owl-carousel');
+ 
+    var owl = $('.sales-off.owl-carousel');
     owl.owlCarousel({
       loop:true,
       items:1,
