@@ -234,6 +234,60 @@
   border-color: #8200de;
 }
 
+/* GOODS DETAIL TABS */
+.style-violet-tab .nav-tabs {
+  border-top: 1px #000 solid;
+  border-bottom: 1px #000 solid;
+}
+
+.style-violet-tab .nav-tabs .nav-item {
+  margin-bottom: 0;
+}
+
+.style-violet-tab .nav-tabs .nav-link {
+  border: none;
+  color: #000;
+}
+
+.style-violet-tab .nav-tabs .nav-link.active {
+  color: #8200de;
+}
+
+/* 후기 */
+.review-list > h4 {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.review-form .form-control {
+  border-color: #000;
+}
+
+.review-star i {
+  cursor: pointer;
+  color: #8200de;
+}
+
+/* 묻고답하기 */
+.qna-list ul {
+  border-top: 1px solid #000000;
+  list-style: none;
+  padding: 0;
+}
+
+.qna-list ul li {
+  border-bottom: 1px solid #000000;
+}
+
+.qna-list ul li .question {
+  padding: 1rem;
+}
+
+.qna-list ul li .answer {
+  border-top: 1px solid rgba(0,0,0,.06);
+  background-color: rgba(0,0,0,.03);
+  padding: 0.5rem 1rem;
+}
 
 /* Over PC */
 @media (min-width: 992px) {

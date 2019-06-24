@@ -202,12 +202,12 @@
           
           <h3>Filters</h3>
           <div class="filters pl-2">
-            <div class="accordion" id="accordionExample">
+            <div class="accordion" id="qnaList">
               <div class="pb-3">
                 <p class="mb-0 text-violet" data-toggle="collapse" data-target="#filterByPrice" aria-expanded="true" aria-controls="filterByPrice">
                   By Price
                 </p>
-                <div id="filterByPrice" class="collapse show" data-parent="#accordionExample">
+                <div id="filterByPrice" class="collapse show" data-parent="#qnaList">
                   <div class="side-wrap p-3">
                     <select multiple>
                       <option>$0.00 - $20.00</option>
@@ -223,7 +223,7 @@
                   By Color
                 </p>
                 
-                <div id="filterByColor" class="collapse" data-parent="#accordionExample">
+                <div id="filterByColor" class="collapse" data-parent="#qnaList">
                   <div class="side-wrap p-3">
                     필터조건
                   </div>
@@ -234,7 +234,7 @@
                   By Size
                 </p>
                 
-                <div id="filterBySize" class="collapse" data-parent="#accordionExample">
+                <div id="filterBySize" class="collapse" data-parent="#qnaList">
                   <div class="side-wrap p-3">
                     필터조건
                   </div>
@@ -343,7 +343,7 @@
                 <span class="text-violet">24000원</span>
                 <del class="text-muted">30000원</del>
               </h4>
-              <p>
+              <p class="description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Cras eu massa quis arcu laoreet molestie nec sit amet nisi.
                 Proin porta condimentum est sit amet consectetur. Nullam
@@ -428,42 +428,55 @@
             </div>
           </div>
           <!-- ORDER UNIT//E -->
-          <!-- GOODS INFO TABS//S -->
-          <ul class="nav nav-tabs nav-justified mb-5">
-            <li class="nav-item">
-              <a class="nav-link active" data-toggle="tab" href="#desc">
-                Description
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#info">
-                상세정보
-              </a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#size">
-                Size Chart
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#review">
-                Reviews
-              </a>
-            </li>
-          </ul>
-          <!-- GOODS INFO TABS//E -->
-          <!-- GOODS INFO//S -->
-          <div class="tab-content mb-5">
-            <div class="tab-pane container active" id="desc">
-              <!-- DESCRIPTION//S -->
-              <div class="row">
-                <div class="col-sm-6 col-xs-12">
-                  <p>Aenean id ullamcorper libero. Vestibulum imperdiet nibh. Lorem ullamcorper volutpat. Vestibulum lacinia risus. Etiam sagittis ullamcorper volutpat. Vestibulum lacinia risus sed ligula malesuada volutpat.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo</p>
-                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+          <!-- TAB WRAP//S -->
+          <div class="style-violet-tab">
+            <!-- GOODS INFO TABS//S -->
+            <ul class="nav nav-tabs nav-justified mb-3">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#info">
+                  상세정보
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#review">
+                  구매평
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#qna">
+                  Q &amp; A
+                </a>
+              </li>
+              
+            </ul>
+            <!-- GOODS INFO TABS//E -->
+            <!-- GOODS INFO//S -->
+            <div class="tab-content">
+              <div class="tab-pane container active" id="info">
+                <!-- Additional information//S -->
+                <img data-src="holder.js/100px500?theme=industrial" class="img-responsive" alt="상품이미지">
+                <div class="row">
+                  <div class="col-sm-6 col-xs-12">
+                    <p>Aenean id ullamcorper libero. Vestibulum imperdiet nibh. Lorem ullamcorper volutpat. Vestibulum lacinia risus. Etiam sagittis ullamcorper volutpat. Vestibulum lacinia risus sed ligula malesuada volutpat.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo</p>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                  </div>
+                  <div class="col-sm-6 col-xs-12">
+                    <p><strong>Duis dictum tempus neque, bibendum nibh viverra quis. Etiam sagittis ullamcorper volutpat malesuada volutpat</strong></p>
+                    <ul>
+                      <li>Aenean id ullamcorper libero.</li>
+                      <li>Vestibulum imperdiet nibh.</li>
+                      <li>Lorem ullamcorper volutpat Vestibulum lacinia risus.</li>
+                      <li>Etiam sagittis ullamcorper volutpat.</li>
+                      <li>Vestibulum lacinia risus sed ligula malesuada volutpat.</li>
+                      <li>Pellentesque habitant morbi tristique senectus</li>
+                      <li>Feugiat vitae, ultricies egettempor sit amet</li>
+                      <li>Donec eu libero sit amet quam egestas semper.</li>
+                    </ul>
+                  </div>
                 </div>
-                <div class="col-sm-6 col-xs-12">
-                  <p><strong>Duis dictum tempus neque, bibendum nibh viverra quis. Etiam sagittis ullamcorper volutpat malesuada volutpat</strong></p>
+                <!-- Additional information//E -->
+                <p>배송안내</p>
+                <p>
                   <ul>
                     <li>Aenean id ullamcorper libero.</li>
                     <li>Vestibulum imperdiet nibh.</li>
@@ -474,29 +487,121 @@
                     <li>Feugiat vitae, ultricies egettempor sit amet</li>
                     <li>Donec eu libero sit amet quam egestas semper.</li>
                   </ul>
-                </div>
+                </p>
               </div>
-              <!-- DESCRIPTION//E -->
+              <div class="tab-pane container fade" id="review">
+                
+                <!-- REVIEW LIST//S -->
+                <div class="review-list">
+                  <h4 class="py-2 mb-4">
+                    구매평 
+                    <small class="text-violet mr-3">3</small> 
+                    <small class="text-muted">상품을 구매하신 분들이 작성한 리뷰 입니다.</small>
+                  </h4>
+                  <ul class="list-unstyled">
+                    <li class="media mb-2">
+                      <img data-src="holder.js/120x120?auto=yes" class="mr-3" alt="...">
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">[리뷰제목] 잘받았습니다 <small class="text-muted ml-1">닉네임</small></h5>
+                        수고많으십니다. 배송도 빠르고 좋네요.
+                      </div>
+                    </li>
+                    <li class="media mb-2">
+                      <img data-src="holder.js/120x120?auto=yes" class="mr-3" alt="...">
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">[리뷰제목] 잘받았습니다 <small class="text-muted ml-1">닉네임</small></h5>
+                        수고많으십니다. 배송도 빠르고 좋네요.
+                      </div>
+                    </li>
+                    <li class="media mb-2">
+                      <img data-src="holder.js/120x120?auto=yes" class="mr-3" alt="...">
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">[리뷰제목] 잘받았습니다 <small class="text-muted ml-1">닉네임</small></h5>
+                        수고많으십니다. 배송도 빠르고 좋네요.
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!-- REVIEW LIST//E -->
+                <!-- REVIEW FORM//S -->
+                <form class="review-form">
+                  <div class="form-group">
+                    <label for="reviewText">구매평 남기기</label>
+                    <textarea class="form-control input-custom" id="reviewText" rows="3"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="reviewImg">이미지</label>
+                    <input type="file" class="form-control-file" id="reviewImg">
+                  </div>
+                  <div class="form-group">
+                    <label for="reviewStar">별점</label>
+                    <div id="reviewStar" class="review-star">
+                      <a href="#"><i class="fas fa-star"></i></a>
+                      <a href="#"><i class="fas fa-star"></i></a>
+                      <a href="#"><i class="fas fa-star"></i></a>
+                      <a href="#"><i class="fas fa-star"></i></a>
+                      <a href="#"><i class="far fa-star"></i></a>
+                    </div>
+                  </div>
+                  <div class="text-right">
+                    <button type="submit" class="btn btn-custom btn-violet">POST</button>
+                  </div>
+                  
+                </form>
+                <!-- REVIEW FORM//E -->
+              </div>
+              <div class="tab-pane container fade" id="qna">
+                <!-- QNA//S -->
+                <div class="qna-list">
+                  <ul class="accordion" id="qnaList">
+                    <li>
+                      <div id="question01">
+                        <h5 class="question mb-0" data-toggle="collapse" data-target="#answer01" aria-expanded="true" aria-controls="answer01">
+                          <i class="fas fa-chevron-right"></i>
+                          첫번째 질문입니다.
+                        </h5>
+                      </div>
+                      <div id="answer01" class="collapse" aria-labelledby="question01" data-parent="#qnaList">
+                        <div class="answer">
+                          첫번째 질문에 대한 답변 입니다.
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div id="question02">
+                        <h5 class="question mb-0" data-toggle="collapse" data-target="#answer02" aria-expanded="true" aria-controls="answer02">
+                          <i class="fas fa-chevron-right"></i>
+                          두번째 질문입니다.
+                        </h5>
+                      </div>
+                      <div id="answer02" class="collapse" aria-labelledby="question02" data-parent="#qnaList">
+                        <div class="answer">
+                          두번째 질문에 대한 답변 입니다.
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div id="question03">
+                        <h5 class="question mb-0" data-toggle="collapse" data-target="#answer03" aria-expanded="true" aria-controls="answer03">
+                          <i class="fas fa-chevron-right"></i>
+                          세번째 질문입니다.
+                        </h5>
+                      </div>
+                      <div id="answer03" class="collapse" aria-labelledby="question03" data-parent="#qnaList">
+                        <div class="answer">
+                          세번째 질문에 대한 답변 입니다.
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                
+                <!-- QNA//E -->
+              </div>
             </div>
-            <div class="tab-pane container fade" id="info">
-              <!-- Additional information//S -->
-              <h3>Additional information</h3>
-              <!-- Additional information//E -->
-            </div>
-            
-            <div class="tab-pane container fade" id="size">
-              <!-- SIZE CHART//S -->
-              <h3>SIZE CHART</h3>
-              <!-- SIZE CHART//E -->
-            </div>
-            <div class="tab-pane container fade" id="review">
-              <h3>
-                review
-              </h3>
-            </div>
+            <!-- GOODS INFO//S -->
           </div>
-          <!-- GOODS INFO//S -->
-          
+          <!-- TAB WRAP//E -->
         </div>
       </div>
     </div>

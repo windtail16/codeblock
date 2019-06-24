@@ -23,6 +23,7 @@ body {
   background-color: #fff;
 }
 
+/* TEXT STYLE */
 .text-violet {
   color: #9a00da;
 }
@@ -31,6 +32,7 @@ body {
   color: #fff;
 }
 
+/* BTN */
 .btn-custom {
   border-radius: 0;
 }
@@ -51,6 +53,11 @@ body {
 .btn-violet:hover {
   background-color: #8200de;
   color: #fff;
+}
+
+/* INPUT */
+.input-custom {
+  border-radius: 0;
 }
 
 /* HR */
