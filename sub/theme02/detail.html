@@ -7,261 +7,645 @@
   <link rel="stylesheet" type="text/css" media="screen" href="/common/css/bootstrap.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="/common/css/common.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="/common/css/theme01.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="./common/css/theme02.css">
   <link rel="stylesheet" type="text/css" media="screen" href="/common/css/owl.carousel.css">
   <link rel="stylesheet" type="text/css" media="screen" href="/common/css/owl.theme.default.css">
-  <title>Theme 1</title>
+  <title>Theme 02</title>
 </head>
 <body>
   <div class="wrap">
     <!-- TOP//S -->
-    <header class="top">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="#">CB THEME 02</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto ml-sm-auto">
-              <li class="nav-item"><a href="#" class="nav-link">소개</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">상품</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">뉴스</a></li>
-            </ul>
-            <ul class="navbar-nav">
-              <li class="nav-item"><a href="login.html" class="nav-link">LOGIN</a></li>
-              <li class="nav-item"><a href="signup.html" class="nav-link">SIGNUP</a></li>
-              <li class="nav-item"><a href="mypage.html" class="nav-link">MY PAGE</a></li>
-              <li class="nav-item"><a href="cart.html" class="nav-link">CART</a></li>
-              <li class="nav-item"><a href="order.html" class="nav-link">ORDER</a></li>
-            </ul>
-          </div>
-        </nav>
+    <nav class="navbar navbar-expand-lg gnb">
+      <div class="container">
+        <a class="navbar-brand d-block d-lg-none text-hide logo-top" href="/">CODE BLOCK</a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <!-- DESCTOP NAV//S -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                CATALOG
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">하위메뉴1</a>
+                <a class="dropdown-item" href="#">하위메뉴2</a>
+                <a class="dropdown-item" href="#">하위메뉴3</a>
+              </div>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">ABOUT US</a></li>
+          </ul>
+          <ul class="nav navbar-nav mx-auto d-none d-lg-block">
+            <li class="nav-item"><a class="nav-link text-hide logo-top" href="/">CODE BLOCK</a></li>
+          </ul>
+          <ul class="nav navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                PRODUCT
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">하위메뉴1</a>
+                <a class="dropdown-item" href="#">하위메뉴2</a>
+                <a class="dropdown-item" href="#">하위메뉴3</a>
+              </div>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
+            
+          </ul>
+          
+        </div>
+        <!-- DESCTOP NAV//E -->
       </div>
-    </header>
+      <div class="gnb-bg">
+      </div>
+    </nav>
     <!-- TOP//E -->
+    <!--TITLE AREA//S-->
+    <div class="title-area py-5 mb-5">
+      <div class="container text-center my-4 py-5">
+        <h3>Products</h3>
+        <p class="text-violet">HOME / SHOP</p>
+      </div>
+    </div>
+    <!--TITLE AREA//E-->
     <!-- MID//S -->
-    <div class="container mb-5">
-      <!-- DIRECTORY//S -->
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
-          <li class="breadcrumb-item"><a href="#">Library</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Data</li>
-        </ol>
-      </nav>
-      <div class="text-center">
-        <h3>Hot Items</h3>
-      </div>
-      <!-- DIRECTORY//E -->
-      <!-- ORDER UNIT//S -->
-      <div class="row mb-5">
-        <div class="col-sm-6 col-xs-12">
-          <!-- GOODS IMAGE//S -->
-          <img data-src="holder.js/100px500?random=yes" class="img-responsive" alt="상품이미지">
-          <!-- GOODS IMAGE//E -->
-        </div>
-        <div class="col-sm-6 col-xs-12">
-          <!-- GOODS SHORT INFO//S -->
-          <h1>GOODS TITLE</h1>
+    <div class="container">
+      <div class="row">
+        <div class="side-col col-md-3 col-sm-3 col-xs-12">
+          <!-- SIDE//S -->
+          <h3>Categories</h3>
+          <div class="side-wrap mb-3 p-3">
+            <ul class="nav flex-column">
+              <li class="nav-item"><a href="#" class="nav-link">Best sellers <small class="text-muted">(10)</small></a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Outer <small class="text-muted">(10)</small></a></li>
+              <li class="nav-item"><a href="#" class="nav-link">TOP <small class="text-muted">(10)</small></a></li>
+              <li class="nav-item"><a href="#" class="nav-link">BOTTOM <small class="text-muted">(10)</small></a></li>
+              <li class="nav-item"><a href="#" class="nav-link">SHOES <small class="text-muted">(10)</small></a></li>
+              <li class="nav-item"><a href="#" class="nav-link">ACC <small class="text-muted">(10)</small></a></li>
+            </ul>
+          </div>
+          
+          <!-- SIDE//E -->
+
+          <!-- Sale Rolling//S -->
+          <div class="mb-3">
+            <div class="clearfix">
+              <h3 class="float-left">Sale Off </h3>
+              <div class="float-right">
+                <button type="button" class="btn sale-item-prev"><i class="fas fa-angle-left"></i></button>
+                <button type="button" class="btn sale-item-next"><i class="fas fa-angle-right"></i></button>
+              </div>
+            </div>
+            <div class="owl-carousel sales-off side-wrap pt-3 pl-3 pr-3 pb-1">
+              <ul class="item list-unstyled">
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-1">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-violet">￦28,000</p>
+                  </div>
+                </li>
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-2">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-violet">￦28,000</p>
+                  </div>
+                </li>
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-2">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-violet">￦28,000</p>
+                  </div>
+                </li>
+              </ul>
+              <ul class="item list-unstyled">
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-1">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-violet">￦28,000</p>
+                  </div>
+                </li>
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-2">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-violet">￦28,000</p>
+                  </div>
+                </li>
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-2">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-violet">￦28,000</p>
+                  </div>
+                </li>
+              </ul>
+              <ul class="item list-unstyled">
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-2">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-violet">￦28,000</p>
+                  </div>
+                </li>
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-2">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-violet">￦28,000</p>
+                  </div>
+                </li>
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-2">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-violet">￦28,000</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Sale Rolling//E -->
+          <!-- FILTER//S -->
+          
+          <h3>Filters</h3>
+          <div class="filters pl-2">
+            <div class="accordion" id="qnaList">
+              <div class="pb-3">
+                <p class="mb-0 text-violet" data-toggle="collapse" data-target="#filterByPrice" aria-expanded="true" aria-controls="filterByPrice">
+                  By Price
+                </p>
+                <div id="filterByPrice" class="collapse show" data-parent="#qnaList">
+                  <div class="side-wrap p-3">
+                    <select multiple>
+                      <option>$0.00 - $20.00</option>
+                      <option>$20.00 - $40.00</option>
+                      <option>$40.00 - $60.00</option>
+                      <option>$60.00 - </option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="pb-3">
+                <p class="mb-0 text-violet" data-toggle="collapse" data-target="#filterByColor" aria-expanded="true" aria-controls="filterByColor">
+                  By Color
+                </p>
+                
+                <div id="filterByColor" class="collapse" data-parent="#qnaList">
+                  <div class="side-wrap p-3">
+                    필터조건
+                  </div>
+                </div>
+              </div>
+              <div class="pb-3">
+                <p class="mb-0 text-violet" data-toggle="collapse" data-target="#filterBySize" aria-expanded="true" aria-controls="filterBySize">
+                  By Size
+                </p>
+                
+                <div id="filterBySize" class="collapse" data-parent="#qnaList">
+                  <div class="side-wrap p-3">
+                    필터조건
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+          <!-- FILTER//E -->
+          
+          <!-- TAG//S -->
           <div>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
+            <h3>Tags</h3>
+            <div class="side-wrap mb-3 p-3">
+              <a href="#" class="badge badge-light">Product01</a>
+              <a href="#" class="badge badge-light">Shoes</a>
+              <a href="#" class="badge badge-light">Outer</a>
+            </div>
           </div>
-          <p>
-            상품 설명 상품 설명 상품 설명 상품 설명 상품 설명 상품 설명 상품 설명 상품 설명
-          </p>
-          <dl class="row">
-            <dt class="col-sm-3">재고</dt>
-            <dd class="col-sm-9">있음</dd>
-            <dt class="col-sm-3">카테고리</dt>
-            <dd class="col-sm-9">아우터, 상의, 외투</dd>
-          </dl>
-          <form class="form-inline">
-            <div class="form-group mx-sm-3">
-              <label for="quantity" class="sr-only">quantity</label>
-              <input type="number" class="form-control" id="quantity" placeholder="quantity" value="1">
-            </div>
-            <button type="submit" class="btn btn-primary">ADD TO CART</button>
-            <div class="form-group">
-              <a href="#" class="btn"><i class="far fa-heart"></i></a>
-              <span class="badge badge-secondary">4</span>
-            </div>
-          </form>
-          <hr>
-          <dl class="row">
-            <dt class="col-sm-3">Share</dt>
-            <dd class="col-sm-9">  
-              <ul class="list-inline">
-                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus"></i></a></li>
-              </ul>
-            </dd>
-          </dl>
-          <!-- GOODS SHORT INFO//E -->
+          
+          <!-- TAG//E -->
+          <!-- AD -->
+          <div class="mb-3">
+            <a href="#"><img src="common/images/dummny_ad.png" class="w-100" alt="자체광고"></a>
+          </div>
+          <!-- AD -->
         </div>
-      </div>
-      <!-- ORDER UNIT//E -->
-      <!-- GOODS INFO TABS//S -->
-      <ul class="nav nav-tabs nav-justified mb-5">
-        <li class="nav-item">
-          <a class="nav-link active" data-toggle="tab" href="#desc">
-            Description
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#info">
-            Additional information
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#ship">
-            Shipping & Returns
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#size">
-            Size Chart
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#review">
-            Reviews
-          </a>
-        </li>
-      </ul>
-      <!-- GOODS INFO TABS//E -->
-      <!-- GOODS INFO//S -->
-      <div class="tab-content mb-5">
-        <div class="tab-pane container active" id="desc">
-          <!-- DESCRIPTION//S -->
-          <div class="row">
+        <div class="col-md-9 col-sm-9 col-xs-12">
+          <!-- AD//S -->
+          <div class="mb-3">
+            <a href="#"><img src="./common/images/dummy_ad_02.png" class="w-100" alt="자체광고"></a>
+          </div>
+          <!-- AD//E -->
+          <div class="title-unit mb-3 clearfix">
+            <h3 class="float-left mb-0">Category 01</h3>
+            <nav class="float-right" aria-label="breadcrumb">
+              <ol class="breadcrumb mb-0 mt-1">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+              </ol>
+            </nav>
+          </div>
+          <!-- ORDER UNIT//S -->
+          <div class="row mb-5">
             <div class="col-sm-6 col-xs-12">
-              <p>Aenean id ullamcorper libero. Vestibulum imperdiet nibh. Lorem ullamcorper volutpat. Vestibulum lacinia risus. Etiam sagittis ullamcorper volutpat. Vestibulum lacinia risus sed ligula malesuada volutpat.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo</p>
-              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+              <!-- GOODS IMAGE//S -->
+              <div id="carousel-thumb" class="carousel slide carousel-fade goods-thumbnails">
+                <!--Slides//S-->
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <img data-src="holder.js/100px500?theme=sky" class="img-responsive" alt="상품이미지">
+                  </div>
+                  <div class="carousel-item">
+                    <img data-src="holder.js/100px500?theme=vine" class="img-responsive" alt="상품이미지">
+                  </div>
+                  <div class="carousel-item">
+                    <img data-src="holder.js/100px500?theme=lava" class="img-responsive" alt="상품이미지">
+                  </div>
+                  <div class="carousel-item">
+                    <img data-src="holder.js/100px500?theme=gray" class="img-responsive" alt="상품이미지">
+                  </div>
+                  <div class="carousel-item">
+                    <img data-src="holder.js/100px500?theme=industrial" class="img-responsive" alt="상품이미지">
+                  </div>
+                </div>
+                <!--Slides//E-->
+                <!--Controls//S-->
+                <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+                <!--/.Controls//E-->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-thumb" data-slide-to="0" class="active">
+                    <img class="w-100" data-src="holder.js/100x50?theme=sky">
+                  </li>
+                  <li data-target="#carousel-thumb" data-slide-to="1">
+                    <img class="w-100" data-src="holder.js/100x50?theme=vine">
+                  </li>
+                  <li data-target="#carousel-thumb" data-slide-to="2">
+                    <img class="w-100" data-src="holder.js/100x50?theme=lava">
+                  </li>
+                  <li data-target="#carousel-thumb" data-slide-to="3">
+                    <img class="w-100" data-src="holder.js/100x50?theme=gray">
+                  </li>
+                  <li data-target="#carousel-thumb" data-slide-to="4" >
+                    <img class="w-100" data-src="holder.js/100x50?theme=industrial">
+                  </li>
+                  
+                </ol>
+              </div>
+              <!-- GOODS IMAGE//E -->
             </div>
-            <div class="col-sm-6 col-xs-12">
-              <p><strong>Duis dictum tempus neque, bibendum nibh viverra quis. Etiam sagittis ullamcorper volutpat malesuada volutpat</strong></p>
-              <ul>
-                <li>Aenean id ullamcorper libero.</li>
-                <li>Vestibulum imperdiet nibh.</li>
-                <li>Lorem ullamcorper volutpat Vestibulum lacinia risus.</li>
-                <li>Etiam sagittis ullamcorper volutpat.</li>
-                <li>Vestibulum lacinia risus sed ligula malesuada volutpat.</li>
-                <li>Pellentesque habitant morbi tristique senectus</li>
-                <li>Feugiat vitae, ultricies egettempor sit amet</li>
-                <li>Donec eu libero sit amet quam egestas semper.</li>
-              </ul>
+            <div class="col-sm-6 col-xs-12 goods-unit">
+              
+              <!-- GOODS UNIT//S -->
+              <h1 class="mb-0">[상품분류]상품이름</h1>
+              <p class="mb-2"><small class="text-muted">상품태그1, 상품태그2, 상품태그3, 상품태그4</small></p>
+              <h4 class="mb-3">
+                <span class="text-violet">24000원</span>
+                <del class="text-muted">30000원</del>
+              </h4>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Cras eu massa quis arcu laoreet molestie nec sit amet nisi.
+                Proin porta condimentum est sit amet consectetur. Nullam
+                posuere semper volutpat. Donec eget dui tincidunt, fermen
+                tum nulla elementum, convallis arcu.
+              </p>
+              <dl class="row">
+                <dt class="col-sm-3">구매혜택</dt>
+                <dd class="col-sm-9">240p 적립</dd>
+                <dt class="col-sm-3">배송방법</dt>
+                <dd class="col-sm-9">택배 | 방문수령</dd>
+                <dt class="col-sm-3">배송비</dt>
+                <dd class="col-sm-9">4000원(30,000원 이상 무료배송)</dd>
+              </dl>
+              <form>
+                <!-- OPTION//S -->
+                <div class="form-group goods-options">
+                  <select class="custom-select mb-2">
+                    <option selected>옵션(필수)</option>
+                  </select>
+                  <select class="custom-select mb-2">
+                    <option selected>옵션(선택)</option>
+                  </select>
+                </div>
+                <!-- OPTION//E -->
+                <hr class="black-2">
+                <div class="form-group row mb-0">
+                  <!-- 수량//S -->
+                  <label for="quantity" class="col-6 col-form-label">수량</label>
+                  <div class="col-6">
+                    <div class="input-group input-group-sm">
+                      <div class="input-group-prepend">
+                        <button type="button" class="btn btn-outline-secondary" type="button" disabled="disabled">
+                          <i class="fas fa-minus"></i>
+                        </button>
+                      </div>
+                      <input type="text" readonly class="form-control text-center" value="0" id="quantity">
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">
+                          <i class="fas fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 수량//E -->
+                  <!-- 옵션가격//S -->
+                  <label for="optionPrice1" class="col-6 col-form-label">옵션</label>
+                  <div class="col-6">
+                    <input type="text" readonly class="form-control-plaintext text-right" id="optionPrice1" value="+ 11,000원">  
+                  </div>
+                  <!-- 옵션가격//E -->
+                </div>
+                <hr class="black-1 my-0">
+                <!-- 종합//S -->
+                <div class="form-group row mb-0 total-price">
+                  <label for="totalPrice" class="col-6 col-form-label">종합</label>
+                  <div class="col-6">
+                    
+                    <input type="text" readonly class="form-control-plaintext text-right text-violet" id="totalPrice" value="36,000 원">  
+                  </div>
+                </div>
+                <!-- 종합//E -->
+                <hr class="black-2 mt-0">
+                <!-- BTN GROUP//S -->
+                <div class="row no-gutters get-buy-btn">
+                  <div class="col">
+                    <button class="btn btn-violet btn-lg btn-block btn-custom">구매하기</button>
+                  </div>
+                  <div class="col">
+                    <div class="btn-group">
+                      <a href="#" class="btn btn-black btn-lg btn-custom btn-block mx-2">장바구니</a>
+                      <a href="#" class="btn btn-black btn-lg btn-custom"><i class="far fa-heart"></i></a>
+                    </div>
+                    
+                    
+                  </div>
+                </div>
+                <!-- BTN GROUP//E -->
+              </form>
+
+              <!-- GOODS UNIT//E -->
             </div>
           </div>
-          <!-- DESCRIPTION//E -->
-        </div>
-        <div class="tab-pane container fade" id="info">
-          <!-- Additional information//S -->
-          <h3>Additional information</h3>
-          <!-- Additional information//E -->
-        </div>
-        <div class="tab-pane container fade" id="ship">
-          <!-- SHIPPING & RETURNS//S -->
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          <!-- SHIPPING & RETURNS//E -->
-        </div>
-        <div class="tab-pane container fade" id="size">
-          <!-- SIZE CHART//S -->
-          <h3>SIZE CHART</h3>
-          <!-- SIZE CHART//E -->
-        </div>
-        <div class="tab-pane container fade" id="review">
-          <h3>
-            review
-          </h3>
+          <!-- ORDER UNIT//E -->
+          <!-- TAB WRAP//S -->
+          <div class="style-violet-tab">
+            <!-- GOODS INFO TABS//S -->
+            <ul class="nav nav-tabs nav-justified mb-3">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#info">
+                  상세정보
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#review">
+                  구매평
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#qna">
+                  Q &amp; A
+                </a>
+              </li>
+              
+            </ul>
+            <!-- GOODS INFO TABS//E -->
+            <!-- GOODS INFO//S -->
+            <div class="tab-content">
+              <div class="tab-pane container active" id="info">
+                <!-- Additional information//S -->
+                <img data-src="holder.js/100px500?theme=industrial" class="img-responsive" alt="상품이미지">
+                <div class="row">
+                  <div class="col-sm-6 col-xs-12">
+                    <p>Aenean id ullamcorper libero. Vestibulum imperdiet nibh. Lorem ullamcorper volutpat. Vestibulum lacinia risus. Etiam sagittis ullamcorper volutpat. Vestibulum lacinia risus sed ligula malesuada volutpat.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo</p>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                  </div>
+                  <div class="col-sm-6 col-xs-12">
+                    <p><strong>Duis dictum tempus neque, bibendum nibh viverra quis. Etiam sagittis ullamcorper volutpat malesuada volutpat</strong></p>
+                    <ul>
+                      <li>Aenean id ullamcorper libero.</li>
+                      <li>Vestibulum imperdiet nibh.</li>
+                      <li>Lorem ullamcorper volutpat Vestibulum lacinia risus.</li>
+                      <li>Etiam sagittis ullamcorper volutpat.</li>
+                      <li>Vestibulum lacinia risus sed ligula malesuada volutpat.</li>
+                      <li>Pellentesque habitant morbi tristique senectus</li>
+                      <li>Feugiat vitae, ultricies egettempor sit amet</li>
+                      <li>Donec eu libero sit amet quam egestas semper.</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- Additional information//E -->
+                <p>배송안내</p>
+                <p>
+                  <ul>
+                    <li>Aenean id ullamcorper libero.</li>
+                    <li>Vestibulum imperdiet nibh.</li>
+                    <li>Lorem ullamcorper volutpat Vestibulum lacinia risus.</li>
+                    <li>Etiam sagittis ullamcorper volutpat.</li>
+                    <li>Vestibulum lacinia risus sed ligula malesuada volutpat.</li>
+                    <li>Pellentesque habitant morbi tristique senectus</li>
+                    <li>Feugiat vitae, ultricies egettempor sit amet</li>
+                    <li>Donec eu libero sit amet quam egestas semper.</li>
+                  </ul>
+                </p>
+              </div>
+              <div class="tab-pane container fade" id="review">
+                
+                <!-- REVIEW LIST//S -->
+                <div class="review-list">
+                  <h4 class="py-2 mb-4">
+                    구매평 
+                    <small class="text-violet mr-3">3</small> 
+                    <small class="text-muted">상품을 구매하신 분들이 작성한 리뷰 입니다.</small>
+                  </h4>
+                  <ul class="list-unstyled">
+                    <li class="media mb-2">
+                      <img data-src="holder.js/120x120?auto=yes" class="mr-3" alt="...">
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">[리뷰제목] 잘받았습니다 <small class="text-muted ml-1">닉네임</small></h5>
+                        수고많으십니다. 배송도 빠르고 좋네요.
+                      </div>
+                    </li>
+                    <li class="media mb-2">
+                      <img data-src="holder.js/120x120?auto=yes" class="mr-3" alt="...">
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">[리뷰제목] 잘받았습니다 <small class="text-muted ml-1">닉네임</small></h5>
+                        수고많으십니다. 배송도 빠르고 좋네요.
+                      </div>
+                    </li>
+                    <li class="media mb-2">
+                      <img data-src="holder.js/120x120?auto=yes" class="mr-3" alt="...">
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">[리뷰제목] 잘받았습니다 <small class="text-muted ml-1">닉네임</small></h5>
+                        수고많으십니다. 배송도 빠르고 좋네요.
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!-- REVIEW LIST//E -->
+                <!-- REVIEW FORM//S -->
+                <form class="review-form">
+                  <div class="form-group">
+                    <label for="reviewText">구매평 남기기</label>
+                    <textarea class="form-control input-custom" id="reviewText" rows="3"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="reviewImg">이미지</label>
+                    <input type="file" class="form-control-file" id="reviewImg">
+                  </div>
+                  <div class="form-group">
+                    <label for="reviewStar">별점</label>
+                    <div id="reviewStar" class="review-star">
+                      <a href="#"><i class="fas fa-star"></i></a>
+                      <a href="#"><i class="fas fa-star"></i></a>
+                      <a href="#"><i class="fas fa-star"></i></a>
+                      <a href="#"><i class="fas fa-star"></i></a>
+                      <a href="#"><i class="far fa-star"></i></a>
+                    </div>
+                  </div>
+                  <div class="text-right">
+                    <button type="submit" class="btn btn-custom btn-violet">POST</button>
+                  </div>
+                  
+                </form>
+                <!-- REVIEW FORM//E -->
+              </div>
+              <div class="tab-pane container fade" id="qna">
+                <!-- QNA//S -->
+                <div class="qna-list">
+                  <ul class="accordion" id="qnaList">
+                    <li>
+                      <div id="question01">
+                        <h5 class="question mb-0" data-toggle="collapse" data-target="#answer01" aria-expanded="true" aria-controls="answer01">
+                          <i class="fas fa-chevron-right"></i>
+                          첫번째 질문입니다.
+                        </h5>
+                      </div>
+                      <div id="answer01" class="collapse" aria-labelledby="question01" data-parent="#qnaList">
+                        <div class="answer">
+                          첫번째 질문에 대한 답변 입니다.
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div id="question02">
+                        <h5 class="question mb-0" data-toggle="collapse" data-target="#answer02" aria-expanded="true" aria-controls="answer02">
+                          <i class="fas fa-chevron-right"></i>
+                          두번째 질문입니다.
+                        </h5>
+                      </div>
+                      <div id="answer02" class="collapse" aria-labelledby="question02" data-parent="#qnaList">
+                        <div class="answer">
+                          두번째 질문에 대한 답변 입니다.
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div id="question03">
+                        <h5 class="question mb-0" data-toggle="collapse" data-target="#answer03" aria-expanded="true" aria-controls="answer03">
+                          <i class="fas fa-chevron-right"></i>
+                          세번째 질문입니다.
+                        </h5>
+                      </div>
+                      <div id="answer03" class="collapse" aria-labelledby="question03" data-parent="#qnaList">
+                        <div class="answer">
+                          세번째 질문에 대한 답변 입니다.
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                
+                <!-- QNA//E -->
+              </div>
+            </div>
+            <!-- GOODS INFO//S -->
+          </div>
+          <!-- TAB WRAP//E -->
         </div>
       </div>
-      <!-- GOODS INFO//S -->
-      <!-- Related Products//S -->
-      <div class="product-list">
-        <h3>Related Products</h3>
-        <div class="owl-carousel owl-theme">
-          <div class="card item">
-            <a href="detail.html">
-              <img data-src="holder.js/100px200?random=yes" class="card-img-top img-responsive" alt="상품이미지">
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">Product name</h5>
-              <p>￦30,000</p>
-              <div class="hidden-layer">
-                <h5>Add to Cart</h5>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                  <li class="list-inline-item"><a href="#"><i class="fas fa-search"></i></a></li>
-                  <li class="list-inline-item"><a href="#"><i class="far fa-heart"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="card item">
-            <a href="detail.html">
-              <img data-src="holder.js/100px200?random=yes" class="card-img-top img-responsive" alt="상품이미지">
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">Product name</h5>
-              <p>￦30,000</p>
-              <div class="hidden-layer">
-                <h5>Add to Cart</h5>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                  <li class="list-inline-item"><a href="#"><i class="fas fa-search"></i></a></li>
-                  <li class="list-inline-item"><a href="#"><i class="far fa-heart"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="card item">
-            <a href="detail.html">
-              <img data-src="holder.js/100px200?random=yes" class="card-img-top img-responsive" alt="상품이미지">
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">Product name</h5>
-              <p>￦30,000</p>
-              <div class="hidden-layer">
-                <h5>Add to Cart</h5>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                  <li class="list-inline-item"><a href="#"><i class="fas fa-search"></i></a></li>
-                  <li class="list-inline-item"><a href="#"><i class="far fa-heart"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="card item">
-            <a href="detail.html">
-              <img data-src="holder.js/100px200?random=yes" class="card-img-top img-responsive" alt="상품이미지">
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">Product name</h5>
-              <p>￦30,000</p>
-              <div class="hidden-layer">
-                <h5>Add to Cart</h5>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                  <li class="list-inline-item"><a href="#"><i class="fas fa-search"></i></a></li>
-                  <li class="list-inline-item"><a href="#"><i class="far fa-heart"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Related Products//E -->
     </div>
     <!-- MID//E -->
     <!-- BOTTOM//S -->
-    <footer class="bottom">
+    <footer class="cresh-footer py-4">
+      <div class="container">
+        <nav class="row">
+          <div class="col-5 col-sm-2">
+            <h5 class="text-hide logo-bottom mb-3">CODE BLOCK</h5>
+          </div>
+          <div class="col-7 col-sm-10">
+            <!-- SNS LINK//S -->
+            <ul class="list-inline sns-btn-group mt-2">
+              <li class="list-inline-item"><a class="btn btn-sm" href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a class="btn btn-sm" href="#"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a class="btn btn-sm" href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+            <!-- SNS LINK//E -->
+          </div> 
+        </nav>
+        <div class="row">
+          <ul class="nav mb-0">
+            <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">이용약관</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">개인정보처리방침</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">사업자정보확인</a></li>
+          </ul>
+        </div>
+        
+        <p class="mb-1">
+          상호명 :ㅁㅁㅁ | 대표: ㅁㅁㅁ | 개인정보관리책임자: ㅁㅁㅁ | 전화: 0000-0000 | 이메일 dev@codeblock.co.kr
+        </p>
+        <!-- ADDRESS//S -->
+        <address>
+          주소: ㅁㅁ시 ㅁㅁ구 ㅁㅁ로 1길 ㅁㅁㅁ | 사업자등록번호: 000-00-00000 | 통신판매: 0000-0000-0000 | 호스팅제공자: 코드블럭주식회사
+        </address>
+        ⓒ Codeblock. ALL RIGHTS RESERVED.
+        <!-- ADDRESS//E -->
+        
+        
+      </div>
+      
     </footer>
     <!-- BOTTOM//E -->
   </div>
@@ -270,15 +654,26 @@
   <script src="/common/js/bootstrap.js"></script>
   <script src="/common/js/holder.js"></script>
   <script src="/common/js/owl.carousel.js"></script>
-  <script src="/common/js/script.js"></script>
+  <script src="./common/script/theme00.js"></script>
   <script>
     $(document).ready(function(){
       
-      $('.owl-carousel').owlCarousel({
+      var owl = $('.sales-off.owl-carousel');
+      owl.owlCarousel({
         loop:true,
-        margin:10,
-        dots:true
+        items:1,
+        dots: true,
+        // nav: true,
+        //navText: [$('.sale-item-next'),$('.sale-item-prev')]
       })
+      $('.sale-item-next').click(function() {
+        owl.trigger('next.owl.carousel');
+      })
+      // Go to the previous item
+      $('.sale-item-prev').click(function() {
+        owl.trigger('prev.owl.carousel');
+      })
+  
     })
   </script>
 </body>

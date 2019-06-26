@@ -23,6 +23,10 @@ body {
   background-color: #fff;
 }
 
+.black-bg {
+  background-color: #000000;
+}
+
 /* TEXT STYLE */
 .text-violet {
   color: #9a00da;
@@ -30,6 +34,10 @@ body {
 
 .text-white {
   color: #fff;
+}
+
+.text-mint {
+  color: #01f7fa;
 }
 
 /* BTN */
