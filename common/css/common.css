@@ -86,6 +86,30 @@ hr.black-2 {
   border-top: 2px solid rgba(0, 0, 0, 1);
 }
 
+/* Badge */
+.badge-circle {
+  border-radius: 2rem;
+  padding: 2em 0.4em;
+  min-width: 60px;
+}
+
+.badge-darkgray {
+  background-color: #353432;
+  color: #fff;
+}
+
+.badge-gray {
+  background-color: #707070;
+  color: #fff;
+}
+
+/* 상품 리스트 */
+.product-list .badge-wrap {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
 /* 상품 썸네일 캐러셀 */
 .goods-thumbnails .carousel-indicators {
   margin-top: 15px;
@@ -108,9 +132,3 @@ hr.black-2 {
   display: block;
 }
 
-/* 상품 리스트 */
-.product-list .badge-wrap {
-  position: absolute;
-  top: 0.5rem;
-  left: 1rem;
-}
