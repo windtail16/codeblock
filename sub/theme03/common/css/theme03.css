@@ -39,12 +39,10 @@ html, body {
 }
 
 .product-list .card .card-img-top {
+  border-radius: 0;
   border: 1px solid #666666;
 }
 
-.product-list .card .card-img-top {
-  border-radius: 0;
-}
 
 .product-list .card .card-body {
   

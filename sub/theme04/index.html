@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" media="screen" href="/common/css/bootstrap.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="/common/css/common.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="./common/css/theme02.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="./common/css/theme04.css">
   <link rel="stylesheet" type="text/css" media="screen" href="/common/css/owl.carousel.css">
   <link rel="stylesheet" type="text/css" media="screen" href="/common/css/owl.theme.default.css">
   <title>Theme 04</title>
@@ -15,294 +15,131 @@
 <body>
   <div class="wrap">
     <!-- TOP//S -->
-    <nav class="navbar navbar-expand-lg gnb">
-      <div class="container">
-        <a class="navbar-brand d-block d-lg-none text-hide logo-top" href="/">CODE BLOCK</a>
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
-        </button>
-        <!-- DESCTOP NAV//S -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
-            <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                CATALOG
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">하위메뉴1</a>
-                <a class="dropdown-item" href="#">하위메뉴2</a>
-                <a class="dropdown-item" href="#">하위메뉴3</a>
-              </div>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">ABOUT US</a></li>
-          </ul>
-          <ul class="nav navbar-nav mx-auto d-none d-lg-block">
-            <li class="nav-item"><a class="nav-link text-hide logo-top" href="/">CODE BLOCK</a></li>
-          </ul>
-          <ul class="nav navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                PRODUCT
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">하위메뉴1</a>
-                <a class="dropdown-item" href="#">하위메뉴2</a>
-                <a class="dropdown-item" href="#">하위메뉴3</a>
-              </div>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
-            
-          </ul>
-          
+    <div class="container-fluid">
+      <div class="row justify-content-end top">
+        <div class="col-4 d-flex align-items-center">
+          <a class="navbar-brand d-flex text-hide mx-auto my-3 logo-top " href="/">CODE BLOCK</a>
         </div>
-        <!-- DESCTOP NAV//E -->
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          <div class="d-none d-lg-block">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">로그인</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">마이페이지</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">고객센터</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="gnb-bg">
-      </div>
-    </nav>
-    <!-- TOP//E -->
-    <!--TITLE AREA//S-->
-    <div class="title-area py-5 mb-5">
-      <div class="container text-center my-4 py-5">
-        <h3>Products</h3>
-        <p class="text-violet">HOME / SHOP</p>
-      </div>
-    </div>
-    <!--TITLE AREA//E-->
-    <!-- MID//S -->
-    <div class="container">
-      
-      <div class="row">
-        <div class="side-col col-md-3 col-sm-3 col-xs-12">
-          <!-- SIDE//S -->
-          <h3>Categories</h3>
-          <div class="side-wrap mb-3 p-3">
-            <ul class="nav flex-column">
-              <li class="nav-item"><a href="#" class="nav-link">Best sellers <small class="text-muted">(10)</small></a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Outer <small class="text-muted">(10)</small></a></li>
-              <li class="nav-item"><a href="#" class="nav-link">TOP <small class="text-muted">(10)</small></a></li>
-              <li class="nav-item"><a href="#" class="nav-link">BOTTOM <small class="text-muted">(10)</small></a></li>
-              <li class="nav-item"><a href="#" class="nav-link">SHOES <small class="text-muted">(10)</small></a></li>
-              <li class="nav-item"><a href="#" class="nav-link">ACC <small class="text-muted">(10)</small></a></li>
+      <!-- GNB//S -->
+      <div class="row gnb">
+        <div class="col-3 d-flex align-items-center">
+          <a href="#" class="btn btn-menu"><i class="fas fa-bars"></i></a>
+        </div>
+        <div class="col-6">
+          <nav class="navbar navbar-expand-lg">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav mx-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">ABOUT US</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">PRODUCT</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">NEWS</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="col-3 d-flex justify-content-end align-items-center">
+          <div class="d-none d-lg-block">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"><i class="fas fa-user"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"><i class="fas fa-shopping-basket"></i></a>
+              </li>
+              
             </ul>
           </div>
           
-          <!-- SIDE//E -->
-
-          <!-- Sale Rolling//S -->
-          <div class="mb-3">
-            <div class="clearfix">
-              <h3 class="float-left">Sale Off </h3>
-              <div class="float-right">
-                <button type="button" class="btn sale-item-prev"><i class="fas fa-angle-left"></i></button>
-                <button type="button" class="btn sale-item-next"><i class="fas fa-angle-right"></i></button>
-              </div>
-            </div>
-            <div class="owl-carousel sales-off side-wrap pt-3 pl-3 pr-3 pb-1">
-              <ul class="item list-unstyled">
-                <li class="media">
-                  <a href="#">
-                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
-                  </a>
-                  <div class="media-body text-center">
-                    <h6 class="mt-2 mb-1">Product name</h6>
-                    <p class="mb-0"><del>￦30,000</del></p>
-                    <p class="mb-0 text-violet">￦28,000</p>
-                  </div>
-                </li>
-                <li class="media">
-                  <a href="#">
-                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
-                  </a>
-                  <div class="media-body text-center">
-                    <h6 class="mt-2 mb-2">Product name</h6>
-                    <p class="mb-0"><del>￦30,000</del></p>
-                    <p class="mb-0 text-violet">￦28,000</p>
-                  </div>
-                </li>
-                <li class="media">
-                  <a href="#">
-                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
-                  </a>
-                  <div class="media-body text-center">
-                    <h6 class="mt-2 mb-2">Product name</h6>
-                    <p class="mb-0"><del>￦30,000</del></p>
-                    <p class="mb-0 text-violet">￦28,000</p>
-                  </div>
-                </li>
-              </ul>
-              <ul class="item list-unstyled">
-                <li class="media">
-                  <a href="#">
-                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
-                  </a>
-                  <div class="media-body text-center">
-                    <h6 class="mt-2 mb-1">Product name</h6>
-                    <p class="mb-0"><del>￦30,000</del></p>
-                    <p class="mb-0 text-violet">￦28,000</p>
-                  </div>
-                </li>
-                <li class="media">
-                  <a href="#">
-                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
-                  </a>
-                  <div class="media-body text-center">
-                    <h6 class="mt-2 mb-2">Product name</h6>
-                    <p class="mb-0"><del>￦30,000</del></p>
-                    <p class="mb-0 text-violet">￦28,000</p>
-                  </div>
-                </li>
-                <li class="media">
-                  <a href="#">
-                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
-                  </a>
-                  <div class="media-body text-center">
-                    <h6 class="mt-2 mb-2">Product name</h6>
-                    <p class="mb-0"><del>￦30,000</del></p>
-                    <p class="mb-0 text-violet">￦28,000</p>
-                  </div>
-                </li>
-              </ul>
-              <ul class="item list-unstyled">
-                <li class="media">
-                  <a href="#">
-                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
-                  </a>
-                  <div class="media-body text-center">
-                    <h6 class="mt-2 mb-2">Product name</h6>
-                    <p class="mb-0"><del>￦30,000</del></p>
-                    <p class="mb-0 text-violet">￦28,000</p>
-                  </div>
-                </li>
-                <li class="media">
-                  <a href="#">
-                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
-                  </a>
-                  <div class="media-body text-center">
-                    <h6 class="mt-2 mb-2">Product name</h6>
-                    <p class="mb-0"><del>￦30,000</del></p>
-                    <p class="mb-0 text-violet">￦28,000</p>
-                  </div>
-                </li>
-                <li class="media">
-                  <a href="#">
-                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
-                  </a>
-                  <div class="media-body text-center">
-                    <h6 class="mt-2 mb-2">Product name</h6>
-                    <p class="mb-0"><del>￦30,000</del></p>
-                    <p class="mb-0 text-violet">￦28,000</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- Sale Rolling//E -->
-          <!-- FILTER//S -->
-          
-          <h3>Filters</h3>
-          <div class="filters pl-2">
-            <div class="accordion" id="accordionExample">
-              <div class="pb-3">
-                <p class="mb-0 text-violet" data-toggle="collapse" data-target="#filterByPrice" aria-expanded="true" aria-controls="filterByPrice">
-                  By Price
-                </p>
-                <div id="filterByPrice" class="collapse show" data-parent="#accordionExample">
-                  <div class="side-wrap p-3">
-                    <select multiple>
-                      <option>$0.00 - $20.00</option>
-                      <option>$20.00 - $40.00</option>
-                      <option>$40.00 - $60.00</option>
-                      <option>$60.00 - </option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="pb-3">
-                <p class="mb-0 text-violet" data-toggle="collapse" data-target="#filterByColor" aria-expanded="true" aria-controls="filterByColor">
-                  By Color
-                </p>
-                
-                <div id="filterByColor" class="collapse" data-parent="#accordionExample">
-                  <div class="side-wrap p-3">
-                    필터조건
-                  </div>
-                </div>
-              </div>
-              <div class="pb-3">
-                <p class="mb-0 text-violet" data-toggle="collapse" data-target="#filterBySize" aria-expanded="true" aria-controls="filterBySize">
-                  By Size
-                </p>
-                
-                <div id="filterBySize" class="collapse" data-parent="#accordionExample">
-                  <div class="side-wrap p-3">
-                    필터조건
-                  </div>
-                </div>
-              </div>
-              
-            </div>
-          </div>
-          
-          <!-- FILTER//E -->
-          
-          <!-- TAG//S -->
-          <div>
-            <h3>Tags</h3>
-            <div class="side-wrap mb-3 p-3">
-              <a href="#" class="badge badge-light">Product01</a>
-              <a href="#" class="badge badge-light">Shoes</a>
-              <a href="#" class="badge badge-light">Outer</a>
-            </div>
-          </div>
-          
-          <!-- TAG//E -->
-          <!-- AD -->
-          <div>
-            <a href="#"><img src="common/images/dummny_ad.png" class="img-fluid" alt="자체광고"></a>
-          </div>
-          <!-- AD -->
         </div>
+      </div>
+      <!-- GNB//E -->
+      <!-- SIDE NAV//S -->
+      <div class="slide-nav">
+        <a href="#" class="btn btn-close"><i class="fas fa-times"></i></a>
+        <nav>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">ABOUT US</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">PRODUCT</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">NEWS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">LOGIN</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">MYPAGE</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">CART</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">고객센터</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- SIDE NAV//E -->
+    </div>
+    <!-- TOP//E -->
+    <!-- MID//S -->
+    <div class="container-fluid mt-3">
+      <div class="row">
         <div class="col-md-9 col-sm-9 col-xs-12">
+          <!--VISUAL AREA//S-->
+          <div class="title-area py-5 mb-5">
+            <div class="text-right p-5">
+              <h1 class="text-pink">Hello</h1>
+            </div>
+          </div>
+          <!--VISUAL AREA//E-->
+          <!-- TITLE//S -->
+          <h3>디저트</h3>
+          <!-- TITLE//E -->
+          <!-- PRODUCT SORT UNIT//S -->
           <div class="product-sort-unit clearfix">
             <div class="float-left">
-              <span class="text-violet">23</span> PRODUCTS
+              <span>23</span> PRODUCTS
             </div>
             <div class="float-right">
               <ul class="list-inline">
-                <li class="list-inline-item dropdown">
-                  <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    VIEWS
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <a class="dropdown-item" href="#"><i class="fas fa-th"></i></a>
-                    <a class="dropdown-item" href="#"><i class="fas fa-bars"></i></a>
-                  </div>
+                <li class="list-inline-item">
+                  <dl class="row mb-0">
+                    <dt class="col-sm-5">SHOW</dt>
+                    <dd class="col-sm-7 mb-0">
+                      <a href="#">12</a>
+                      <a href="#">15</a>
+                      <a href="#">30</a>
+                    </dd>
+                  </dl>
                 </li>
-                <li class="list-inline-item dropdown">
-                  <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    SORTING
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <a class="dropdown-item" href="#">BEST</a>
-                    <a class="dropdown-item" href="#">PRICE HIGH TO LOW</a>
-                  </div>
-                </li>
-                
+                <li class="list-inline-item"><a href="#"><i class="fas fa-th"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fas fa-bars"></i></a></li>
               </ul>
             </div>
           </div>
+          <!-- PRODUCT SORT UNIT//E -->
           <!-- PRODUCT LIST//S -->
           <div class="product-list">
             <!-- ROW//S -->
             <div class="row">
-              <div class="col-lg-4 col-sm-4 col-xs-6 mb-3">
+              <div class="col-6 col-sm-3 mb-3">
                 <div class="card">
                   <img src="./common/images/dummy_goods_01.png" class="card-img-top img-fluid" alt="상품이미지">
                   <div class="card-body text-center">
                     <h6 class="card-title mb-1">Product name</h6>
-                    <p class="text-violet mb-0">￦30,000</p>
+                    <p class="text-pink mb-0">￦30,000</p>
                     <div class="hidden-layer">
                       <h5 class="text-white">
                         <a href="./detail.html">Product 02</a>                   
@@ -322,12 +159,12 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-sm-4 col-xs-6 mb-3">
+              <div class="col-6 col-sm-3 mb-3">
                 <div class="card">
                   <img src="./common/images/dummy_goods_02.png" class="card-img-top img-fluid" alt="상품이미지">
                   <div class="card-body text-center">
                     <h6 class="card-title mb-1">Product name</h6>
-                    <p class="text-violet mb-0">￦30,000</p>
+                    <p class="text-pink mb-0">￦30,000</p>
                     <div class="hidden-layer">
                       <h5 class="text-white"><a href="./detail.html">Product 02</a></h5>
                       <div class="hidden-layer-inner">
@@ -345,12 +182,12 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-sm-4 col-xs-6 mb-3">
+              <div class="col-6 col-sm-3 mb-3">
                 <div class="card">
                   <img src="./common/images/dummy_goods_01.png" class="card-img-top img-fluid" alt="상품이미지">
                   <div class="card-body text-center">
                     <h6 class="card-title mb-1">Product name</h6>
-                    <p class="text-violet mb-0">￦30,000</p>
+                    <p class="text-pink mb-0">￦30,000</p>
                     <div class="hidden-layer">
                       <h5 class="text-white"><a href="./detail.html">Product 02</a></h5>
                       <div class="hidden-layer-inner">
@@ -368,12 +205,12 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-sm-4 col-xs-6 mb-3">
+              <div class="col-6 col-sm-3 mb-3">
                 <div class="card">
                   <img src="./common/images/dummy_goods_02.png" class="card-img-top img-fluid" alt="상품이미지">
                   <div class="card-body text-center">
                     <h6 class="card-title mb-1">Product name</h6>
-                    <p class="text-violet mb-0">￦30,000</p>
+                    <p class="text-pink mb-0">￦30,000</p>
                     <div class="hidden-layer">
                       <h5 class="text-white"><a href="./detail.html">Product 02</a></h5>
                       <div class="hidden-layer-inner">
@@ -391,12 +228,12 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-sm-4 col-xs-6 mb-3">
+              <div class="col-6 col-sm-3 mb-3">
                 <div class="card">
                   <img src="./common/images/dummy_goods_01.png" class="card-img-top img-fluid" alt="상품이미지">
                   <div class="card-body text-center">
                     <h6 class="card-title mb-1">Product name</h6>
-                    <p class="text-violet mb-0">￦30,000</p>
+                    <p class="text-pink mb-0">￦30,000</p>
                     <div class="hidden-layer">
                       <h5 class="text-white"><a href="./detail.html">Product 02</a></h5>
                       <div class="hidden-layer-inner">
@@ -414,12 +251,12 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-sm-4 col-xs-6 mb-3">
+              <div class="col-6 col-sm-3 mb-3">
                 <div class="card">
                   <img src="./common/images/dummy_goods_02.png" class="card-img-top img-fluid" alt="상품이미지">
                   <div class="card-body text-center">
                     <h6 class="card-title mb-1">Product name</h6>
-                    <p class="text-violet mb-0">￦30,000</p>
+                    <p class="text-pink mb-0">￦30,000</p>
                     <div class="hidden-layer">
                       <h5 class="text-white"><a href="./detail.html">Product 02</a></h5>
                       <div class="hidden-layer-inner">
@@ -437,12 +274,12 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-sm-4 col-xs-6 mb-3">
+              <div class="col-6 col-sm-3 mb-3">
                 <div class="card">
                   <img src="./common/images/dummy_goods_01.png" class="card-img-top img-fluid" alt="상품이미지">
                   <div class="card-body text-center">
                     <h6 class="card-title mb-1">Product name</h6>
-                    <p class="text-violet mb-0">￦30,000</p>
+                    <p class="text-pink mb-0">￦30,000</p>
                     <div class="hidden-layer">
                       <h5 class="text-white"><a href="./detail.html">Product 02</a></h5>
                       <div class="hidden-layer-inner">
@@ -460,12 +297,12 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-sm-4 col-xs-6 mb-3">
+              <div class="col-6 col-sm-3 mb-3">
                 <div class="card">
                   <img src="./common/images/dummy_goods_02.png" class="card-img-top img-fluid" alt="상품이미지">
                   <div class="card-body text-center">
                     <h6 class="card-title mb-1">Product name</h6>
-                    <p class="text-violet mb-0">￦30,000</p>
+                    <p class="text-pink mb-0">￦30,000</p>
                     <div class="hidden-layer">
                       <h5 class="text-white"><a href="./detail.html">Product 02</a></h5>
                       <div class="hidden-layer-inner">
@@ -485,50 +322,276 @@
               </div>
             </div>
             <!-- ROW//E -->
+            <!-- PAGINATION//S -->
+            <nav aria-label="Goods List navigation">
+              <ul class="pagination justify-content-center black">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <i class="fas fa-chevron-left"></i>
+                  </a>
+                </li>
+                <li class="page-item active">
+                  <span class="page-link">
+                    1
+                    <span class="sr-only">(current)</span>
+                  </span>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <i class="fas fa-chevron-right"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <!-- PAGENATION//E -->
           </div>
           <!-- PRODUCT LIST//E -->
+        </div>
+        <div class="side-col col-md-3 col-sm-3 col-xs-12">
+          <!-- SIDE//S -->
+          <h3 class="text-pink">Categories</h3>
+          <div class="side-wrap mb-3 p-3">
+            <ul class="nav flex-column">
+              <li class="nav-item"><a href="#" class="nav-link">Best sellers <small class="text-muted">(10)</small></a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Outer <small class="text-muted">(10)</small></a></li>
+              <li class="nav-item"><a href="#" class="nav-link">TOP <small class="text-muted">(10)</small></a></li>
+              <li class="nav-item"><a href="#" class="nav-link">BOTTOM <small class="text-muted">(10)</small></a></li>
+              <li class="nav-item"><a href="#" class="nav-link">SHOES <small class="text-muted">(10)</small></a></li>
+              <li class="nav-item"><a href="#" class="nav-link">ACC <small class="text-muted">(10)</small></a></li>
+            </ul>
+          </div>
+          
+          <!-- SIDE//E -->
+  
+            <!-- Sale Rolling//S -->
+          <div class="mb-3">
+            <div class="clearfix">
+              <h3 class="float-left text-pink">Sale Off </h3>
+              <div class="float-right">
+                <button type="button" class="btn sale-item-prev"><i class="fas fa-angle-left"></i></button>
+                <button type="button" class="btn sale-item-next"><i class="fas fa-angle-right"></i></button>
+              </div>
+            </div>
+            <div class="owl-carousel sales-off side-wrap pt-3 pl-3 pr-3 pb-1">
+              <ul class="item list-unstyled">
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-1">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-pink">￦28,000</p>
+                  </div>
+                </li>
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-2">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-pink">￦28,000</p>
+                  </div>
+                </li>
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-2">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-pink">￦28,000</p>
+                  </div>
+                </li>
+              </ul>
+              <ul class="item list-unstyled">
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-1">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-pink">￦28,000</p>
+                  </div>
+                </li>
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-2">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-pink">￦28,000</p>
+                  </div>
+                </li>
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-2">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-pink">￦28,000</p>
+                  </div>
+                </li>
+              </ul>
+              <ul class="item list-unstyled">
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-2">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-pink">￦28,000</p>
+                  </div>
+                </li>
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-2">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-pink">￦28,000</p>
+                  </div>
+                </li>
+                <li class="media">
+                  <a href="#">
+                    <img src="common/images/dummy_goods_thumb.png" class="img-fluid align-self-center mr-1" alt="상품 이미지">
+                  </a>
+                  <div class="media-body text-center">
+                    <h6 class="mt-2 mb-2">Product name</h6>
+                    <p class="mb-0"><del>￦30,000</del></p>
+                    <p class="mb-0 text-pink">￦28,000</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Sale Rolling//E -->
+          <!-- FILTER//S -->
+          
+          <h3 class="text-pink">Filters</h3>
+          <div class="filters pl-2">
+            <div class="accordion" id="accordionExample">
+              <div class="pb-3">
+                <p class="mb-0" data-toggle="collapse" data-target="#filterByPrice" aria-expanded="true" aria-controls="filterByPrice">
+                  By Price
+                </p>
+                <div id="filterByPrice" class="collapse show" data-parent="#accordionExample">
+                  <div class="side-wrap p-3">
+                    <select multiple>
+                      <option>$0.00 - $20.00</option>
+                      <option>$20.00 - $40.00</option>
+                      <option>$40.00 - $60.00</option>
+                      <option>$60.00 - </option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="pb-3">
+                <p class="mb-0" data-toggle="collapse" data-target="#filterByColor" aria-expanded="true" aria-controls="filterByColor">
+                  By Color
+                </p>
+                
+                <div id="filterByColor" class="collapse" data-parent="#accordionExample">
+                  <div class="side-wrap p-3">
+                    필터조건
+                  </div>
+                </div>
+              </div>
+              <div class="pb-3">
+                <p class="mb-0" data-toggle="collapse" data-target="#filterBySize" aria-expanded="true" aria-controls="filterBySize">
+                  By Size
+                </p>
+                
+                <div id="filterBySize" class="collapse" data-parent="#accordionExample">
+                  <div class="side-wrap p-3">
+                    필터조건
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+          <!-- FILTER//E -->
+          
+          <!-- TAG//S -->
+          <div>
+            <h3 class="text-pink">Tags</h3>
+            <div class="side-wrap mb-3 p-3">
+              <a href="#" class="badge badge-light">Product01</a>
+              <a href="#" class="badge badge-light">Shoes</a>
+              <a href="#" class="badge badge-light">Outer</a>
+            </div>
+          </div>
+          
+          <!-- TAG//E -->
+          <!-- AD -->
+          <div class="d-none">
+            <a href="#"><img src="common/images/dummny_ad.png" class="img-fluid" alt="자체광고"></a>
+          </div>
+          <!-- AD -->
         </div>
       </div>
     </div>
     <!-- MID//E -->
     <!-- BOTTOM//S -->
-    <footer class="cresh-footer py-4">
-      <div class="container">
-        <nav class="row">
-          <div class="col-5 col-sm-2">
-            <h5 class="text-hide logo-bottom mb-3">CODE BLOCK</h5>
-          </div>
-          <div class="col-7 col-sm-10">
-           <!-- SNS LINK//S -->
-           <ul class="list-inline sns-btn-group mt-2">
-              <li class="list-inline-item"><a class="btn btn-sm" href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li class="list-inline-item"><a class="btn btn-sm" href="#"><i class="fab fa-instagram"></i></a></li>
-              <li class="list-inline-item"><a class="btn btn-sm" href="#"><i class="fab fa-twitter"></i></a></li>
-            </ul>
-            <!-- SNS LINK//E -->
-          </div> 
-        </nav>
+    <footer class="cresh-footer py-4 px-3">
+      <div class="container-fluid">
         <div class="row">
-          <ul class="nav mb-0">
-            <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">이용약관</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">개인정보처리방침</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">사업자정보확인</a></li>
-          </ul>
+          <div class="col-sm-6 col-md-4">
+            <h3>Contact us</h3>
+            <address>
+              서울특별시 xxx구 xxx동 xx로 000 3F
+            </address>
+            <dl>
+              <dt>Phone</dt>
+              <dd>82-02-1234-1224</dd>
+              <dt>email</dt>
+              <dd>test@gmail.com</dd>
+            </dl>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <h3>Information</h3>
+            <nav class="nav flex-column">
+              <a href="#" class="nav-link">New Products</a>
+              <a href="#" class="nav-link">Top Sellers</a>
+              <a href="#" class="nav-link">Our Blog</a>
+              <a href="#" class="nav-link">About Our Shop</a>
+              <a href="#" class="nav-link">Privatcy policy</a>
+            </nav>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <h3>CS CENTER</h3>
+            <dl>
+              <dt>Mon - Fri</dt>
+              <dd>7:00 AM to 8:00 PM</dd>
+              <dt>Sunday</dt>
+              <dd>8:00 AM to 5:00 PM</dd>
+            </dl>
+            
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <h3>Newsletter</h3>
+            <label for="newsLetterEmail" class="sr-only">Email address</label>
+            <input type="email" id="newsLetterEmail" aria-describedby="emailHelp" class="form-control mb-2" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted mb-2">Sign up for our newsletter to get up - to - date from us</small>
+            <ul class="list-inline sns-link">
+              <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus"></i></a></li>
+            </ul>
+          </div>
         </div>
-        
-        <p class="mb-1">
-          상호명 :ㅁㅁㅁ | 대표: ㅁㅁㅁ | 개인정보관리책임자: ㅁㅁㅁ | 전화: 0000-0000 | 이메일 dev@codeblock.co.kr
-        </p>
-        <!-- ADDRESS//S -->
-        <address>
-          주소: ㅁㅁ시 ㅁㅁ구 ㅁㅁ로 1길 ㅁㅁㅁ | 사업자등록번호: 000-00-00000 | 통신판매: 0000-0000-0000 | 호스팅제공자: 코드블럭주식회사
-        </address>
-        ⓒ Codeblock. ALL RIGHTS RESERVED.
-        <!-- ADDRESS//E -->
-        
-        
       </div>
       
     </footer>
@@ -539,7 +602,7 @@
   <script src="/common/js/bootstrap.js"></script>
   <script src="/common/js/holder.js"></script>
   <script src="/common/js/owl.carousel.js"></script>
-  <script src="./common/script/theme00.js"></script>
+  <script src="./common/script/theme04.js"></script>
   <script>
   $(document).ready(function(){
  

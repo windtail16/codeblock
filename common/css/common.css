@@ -50,6 +50,9 @@ body {
   color: #707070;
 }
 
+.text-pink {
+  color: #eb416a !important;
+}
 /* BTN */
 .btn-custom {
   border-radius: 0;

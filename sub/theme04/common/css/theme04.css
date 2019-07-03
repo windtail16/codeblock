@@ -2,6 +2,13 @@
 /* gnb */
 .gnb {
   position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(3, 0, 0, 1);
+  border-top: 1px solid rgba(3, 0, 0, 1)
+}
+
+.top .nav-link {
+  color: #000;
 }
 
 .logo-top {
@@ -13,31 +20,81 @@
   background-repeat: no-repeat;
 }
 
-.gnb {
-  background-color: rgba(255, 255, 255, 1);
-  border-bottom: 1px solid rgba(3, 0, 0, 1)
-}
-
 .gnb .nav-link {
   color: #000;
 }
 
+/* Slide Nav */
+.btn-close {
+  position: absolute;
+  right: -45px;
+  display: none;
+  padding: 0.5rem 1rem;
+  border-color: rgba(3, 0, 0, 1);
+  background-color: #fff;
+  border-radius: 0;
+  border-top: none;
+  
+}
 
+.slide-nav {
+  width: 80%;
+  left: -80%;
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+  top: 0px;
+  transition: all .6s ease-in-out;
+  
+  opacity: 0;
+  -webkit-box-shadow: 20px 0px 25px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 20px 0px 25px -5px rgba(0,0,0,0.75);
+  box-shadow: 20px 0px 25px -5px rgba(0,0,0,0.75);
+}
+
+.slide-nav nav ul li {
+  transition: all .5s ease;
+  border-bottom: 1px solid #666666;
+}
+
+.slide-nav nav ul li a{
+  color: #000;
+}
+
+.slide-nav nav ul li a:hover {
+  background-color: red;
+  color: #fff;
+  transition: all .5s ease;
+}
+
+
+.slide-nav.show {
+  opacity: 1;
+  left: 0px;
+  background-color: rgba(255,255,255,1);
+  border-right: 1px solid rgba(3, 0, 0, 1);
+  transition: all .6s ease-in-out;
+}
+
+.slide-nav.show .btn-close {
+  display: inherit;
+}
 
 
 /* Product List */
 .product-list .card {
   border-radius: 0;
   position: relative;
-  border-color: #bfbfbf;
+  border: none;
 }
 
 .product-list .card .card-img-top {
   border-radius: 0;
+  border: 1px solid #666666;
 }
 
 .product-list .card .card-body {
-  border-top: 1px #bfbfbf solid
+  
 }
 
 .card-body .hidden-layer {
@@ -57,6 +114,10 @@
   width: 100%;
 }
 
+.card-body .hidden-layer h5 a {
+  color: #fff;
+}
+
 .card-body .hidden-layer .hidden-layer-inner {
   position: absolute;
   left: 0;
@@ -72,6 +133,18 @@
   opacity: 1;
 }
 
+/* Pagination */
+.pagination.black .page-link {
+  background-color: transparent;
+  color: #000;
+  border: none;
+}
+
+.pagination.black .page-item.active .page-link {
+  color: #eb416a;
+  background-color: transparent;
+}
+
 
 /* FORM */
 .signin-form-wrap {
@@ -83,11 +156,11 @@
 
 /*  */
 .title-area {
-  background: url('../images/dummy_title_bg.png');
-  background-color: #a5bcc4;
-  background-position: center center;
+  background: url('../images/dummy_visual_bg.png');
+  background-position: left center;
   background-repeat: no-repeat;
   background-size: auto 100%;
+  border: 1px #666666 solid;
 }
 
 /* Side-Nav */
@@ -102,6 +175,13 @@
   color: #000000;
 
 }
+
+/* 상품 소팅 */
+.product-sort-unit,
+.product-sort-unit a {
+  color: #707070;
+}
+
 
 /* SIDE Slider */
 .side-wrap.owl-carousel .owl-item img {
@@ -162,23 +242,15 @@
 
 /* Footer */
 .cresh-footer {
-  
+  border-top: 1px solid #707070;
+  color: #707070;
 }
 
 .cresh-footer .nav-link {
   color: #707070;
 }
 
-.logo-bottom {
-  width: 130px;
-  height: 53px;
-  background-image: url('/common/images/main/logo_bottom.png');
-  background-position: center center;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-}
-
-.sns-btn-group .btn {
+.sns-link a {
   color: #bfbfbf;
 
 }
@@ -291,42 +363,8 @@
 
 /* Over PC */
 @media (min-width: 992px) {
-  .gnb .dropdown-toggle::after {
-    display: none;
-  }
-  
-  .gnb .dropdown-menu {
-    margin-top: 15px;
-    background-color: transparent;
-    border:none;
-    margin-left: -1rem;
-    width: auto;
-  }
-  
-  .gnb .dropdown-menu .dropdown-item {
-   
-  }
-  
-  .gnb .dropdown-menu .dropdown-item:hover, 
-  .gnb .dropdown-menu .dropdown-item:focus {
-    color: #16181b;
-    text-decoration: none;
-    background-color: inherit;
-  }
-  
-  .gnb-bg {
-    display: none;
-    top: 100%;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-bottom: 1px #818688 solid;
-    left: 0;
-    right: 0;
-    height: 130px;
-    
-  }
-  
-  .gnb-bg.show {
-    display: block;
+  .slide-nav {
+    width: 345px;
+    left: -345px;
   }
 }
