@@ -1,31 +1,5 @@
 @charset "utf-8";
 
-/* COMMON STYLE */
-.gray-bg {
-  background-color: #ececec;
-}
-
-.white-bg {
-  background-color: #fff;
-}
-
-.text-violet {
-  color: #9a00da;
-}
-
-.text-white {
-  color: #fff;
-}
-
-.btn-custom {
-  border-radius: 0;
-}
-
-.btn-white {
-  background-color: #fff;
-  color: #000;
-  border-color: #030000;
-}
 
 /* gnb */
 .logo-top {
@@ -46,6 +20,9 @@
   color: #000;
 }
 
+.gnb .btn {
+  border-radius: 0;
+}
 
 .gnb .navbar-toggler {
   background-color: #9a00da;
@@ -266,7 +243,7 @@
 
 /* Over PC */
 @media (min-width: 992px) {
-  .gnb.navbar-expand-lg .navbar-nav .nav-link.signup-btn {
+  .gnb .signup-btn {
     background-color: #9a00da;
     color: #fff;
     padding: 0.4rem 1rem;
@@ -276,5 +253,11 @@
   }
   .info-banner-main {
     background-size: 100% auto;
+  }
+}
+
+@media (max-width: 1183px) {
+  .gnb .btn {
+    padding: 0.4rem 0.5rem;
   }
 }

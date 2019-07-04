@@ -1,6 +1,5 @@
 $(document).ready(function(){
     $('.btn-menu').click(function(){
-        console.log('show');
         $('.slide-nav').toggleClass('show');
     });
 
