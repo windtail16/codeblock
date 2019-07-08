@@ -168,25 +168,7 @@
 }
 
 
-/* Signup Form */
-.signin-form-wrap {
-  max-width: 600px;
-  margin: 0 auto;
-  width: 100%;
-  margin-bottom: 50px;
-}
 
-.header-main {
-  width: 100%;
-}
-
-.header-main > div {
-  display: inline-block;
-}
-
-.header-main .logo {
-  margin: 0 auto;
-}
 
 /* MOBILE MENU */
 .menu-mobile {

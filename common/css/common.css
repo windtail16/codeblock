@@ -30,33 +30,12 @@ body {
   background-color: #fff;
 }
 
-.text-violet {
-  color: #9a00da;
-}
-
-.text-white {
-  color: #fff;
-}
-
-.btn-custom {
-  border-radius: 0;
-}
-
-.btn-white {
-  background-color: #fff;
-  color: #000;
-  border-color: #030000;
-}
-.gray-bg {
-  background-color: #ececec;
-}
-
-.white-bg {
-  background-color: #fff;
-}
-
 .black-bg {
   background-color: #000000;
+}
+
+.sign-form-bg {
+  background-color: #f3f3f3;
 }
 
 /* TEXT STYLE */
@@ -161,3 +140,26 @@ hr.black-2 {
   display: block;
 }
 
+/* Signup Form */
+.signin-form-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.signin-form-wrap .btn-link {
+  color: #5e5e5e;
+  text-decoration: none;
+}
+
+.header-main {
+  width: 100%;
+}
+
+.header-main > div {
+  display: inline-block;
+}
+
+.header-main .logo {
+  margin: 0 auto;
+}
