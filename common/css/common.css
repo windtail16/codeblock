@@ -163,3 +163,24 @@ hr.black-2 {
 .header-main .logo {
   margin: 0 auto;
 }
+
+/* CART */
+.list-top-row {
+  border-top: 1px #000000 solid;
+  border-bottom: 1px #606060 solid;
+}
+
+.list-mid-row {
+  border-top: 1px #909090 solid;
+  border-bottom: 1px #909090 solid;
+}
+
+.list-bot-row {
+  border-top: 1px #404040 solid;
+  border-bottom: 1px #afafaf solid;
+}
+
+.list-total-row {
+  border-top: 1px #3f3f3f solid;
+  border-bottom: 1px #b0b0b0 solid;
+}

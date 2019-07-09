@@ -6,7 +6,7 @@ $('.smooth-link').click(function() {
       scrollTop: target.offset().top - 80
     }, 1000);
   }
-})
+});
 // TOP go btn
 $('.top-go').click(function () {
   $('html, body').animate({
@@ -29,11 +29,21 @@ $('.btn-menu').click(function() {
 
 $('.btn-menu').click(function(){
   $('.slide-nav').toggleClass('show');
-})
+});
 
 $('.btn-close').click(function(){
   $('.slide-nav').toggleClass('show');
-})
+});
 
-// $('.top').load('./top.html');
-$('.bottom').load('./bottom.html');
+// 높이값 계산
+var winHeight = $(window).height();
+var topHeight = $(".top").height();
+var botHeight = $(".cresh-footer").height();
+
+var conHeight = winHeight-topHeight-botHeight;
+
+function addHeight(){
+  $(".mid").css("min-height",conHeight);
+}
+
+addHeight();
