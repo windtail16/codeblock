@@ -7,6 +7,24 @@ $('.smooth-link').click(function() {
     }, 1000);
   }
 });
+
+//Carousel Script
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
+    loop:true,
+    items:1,
+    dots: true,
+    // nav: true,
+    //navText: [$('.sale-item-next'),$('.sale-item-prev')]
+  });
+  $('.sale-item-next').click(function() {
+    owl.trigger('next.owl.carousel');
+  });
+  // Go to the previous item
+  $('.sale-item-prev').click(function() {
+    owl.trigger('prev.owl.carousel');
+  });
+
 // TOP go btn
 $('.top-go').click(function () {
   $('html, body').animate({
@@ -22,6 +40,24 @@ $('.bottom-go').click(function () {
   1500);
   return false;
 });
+
+//Carousel Script
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+  loop:true,
+  items:1,
+  dots: true,
+  // nav: true,
+  //navText: [$('.sale-item-next'),$('.sale-item-prev')]
+})
+$('.sale-item-next').click(function() {
+  owl.trigger('next.owl.carousel');
+})
+// Go to the previous item
+$('.sale-item-prev').click(function() {
+  owl.trigger('prev.owl.carousel');
+})
+
 //menu mobile
 $('.btn-menu').click(function() {
   $(this).next('ul.dl-menu').toggleClass('invisible');

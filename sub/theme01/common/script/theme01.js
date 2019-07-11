@@ -1,3 +1,4 @@
+//script.js 공통 스크립트 파일 참조
 $(document).ready(function(){
   var winWidth = $(window).width();
   
