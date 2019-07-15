@@ -116,8 +116,269 @@
     <!--TITLE AREA//E-->
     <!-- MID//S -->
     <div class="container">
+      <!-- LIST//S -->
+      <div class="list-wrap mb-5">
+        <!--LIST TOP//S-->
+        <div class="list-top-row py-2">
+          <div class="row text-center">
+            <div class="col-5">
+              상품
+            </div>
+            <div class="col-1">
+              수량                
+            </div>
+            <div class="col-2">
+              적립금
+            </div>
+            <div class="col-2">
+              배송비
+            </div>
+            <div class="col-2">
+              가격
+            </div>
+          </div>
+        </div>
+        <!--LIST TOP//E-->
+        <!--LIST MID//S-->
+        <div class="list-mid-row py-2">
+          <div class="row text-center d-flex align-items-center pb-2">
+            <div class="col-5 text-left">
+              <div class="d-flex align-content-end flex-wrap">
+                
+                <img src="common/images/dummy_goods_thumb.png" class="mr-3" alt="상품 이미지">
+                <div class="align-self-center">
+                  <h6>니트가디건</h6>
+                  <small class="text-muted">옵션</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-1">
+              <input type="text" class="form-control form-control-sm" value="1">
+            </div>
+            <div class="col-2">
+              24원
+            </div>
+            <div class="col-2">
+              무료
+            </div>
+            <div class="col-2">
+              24,000 원
+              <a href="#" class="btn mb-1"><i class="fas fa-times"></i></a>
+            </div>
+          </div>
+          <div class="row text-center d-flex align-items-center pb-2">
+            <div class="col-5 text-left">
+              <div class="d-flex align-content-end flex-wrap">
+                
+                <img src="common/images/dummy_goods_thumb.png" class="mr-3" alt="상품 이미지">
+                <div class="align-self-center">
+                  <h6>니트가디건</h6>
+                  <small class="text-muted">옵션</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-1">
+              <input type="text" class="form-control form-control-sm" value="1">
+            </div>
+            <div class="col-2">
+              24원
+            </div>
+            <div class="col-2">
+              무료
+            </div>
+            <div class="col-2">
+              24,000 원
+              <a href="#" class="btn mb-1"><i class="fas fa-times"></i></a>
+            </div>
+          </div>
+        </div>
+        <!--LIST MID//E-->
+        <!--TOTAL//S-->
+        <div class="list-total-row py-3">
+          <div class="row justify-content-end">
+            <div class="col-md-5 total-row">
+              <dl class="row">
+                <dt class="col-6">가격종합</dt>
+                <dd class="col-6 text-right">38,000원</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="row justify-content-end">
+            <div class="col-md-5 total-row">
+              <dl class="row">
+                <dt class="col-6">배송비</dt>
+                <dd class="col-6 text-right">3,000원</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="row justify-content-end">
+            <div class="col-md-5 total-row">
+              <dl class="row">
+                <dt class="col-6">할인</dt>
+                <dd class="col-6 text-right">-1,000원</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="row justify-content-end">
+            <div class="col-md-5 total-row">
+              <dl class="row">
+                <dt class="col-6">종합</dt>
+                <dd class="col-6 text-right"><strong class="text-violet">40,000원</strong></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <!--TOTAL//E-->
+      </div>
+      <!-- LIST//E -->
+      <!-- DELIVERY//S -->
+      <div class="row">
+        <div class="col-md-6">
+          <!-- 주문자//S -->
+          <h4>주문자 정보</h4>
+          <div class="form-group">
+            <label for="username">이름</label>
+            <input type="text" class="form-control input-custom" id="username">
+          </div>
+          <div class="form-group">
+            <label for="mobile1">휴대폰 번호</label>
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control input-custom" id="mobile1">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control input-custom" id="mobile2">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control input-custom" id="mobile3">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email1">이메일</label>
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control input-custom" id="email1">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control input-custom" id="email2">
+              </div>
+            </div>
+            
+          </div>
+          <!-- 주문자//E -->
+        </div>
+        <div class="col-md-6">
+          <!-- 배송지//S -->
+          <div class="clearfix">
+            <h4 class="float-left">
+              배송지 정보
+            </h4>
+            <div class="form-check form-check-inline ml-3 mt-1">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                주문자 정보와 동일합니다.
+              </label>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="username">이름</label>
+            <input type="text" class="form-control input-custom" id="username">
+          </div>
+          <div class="form-group">
+            <label for="">우편번호</label>
+            <input type="text" class="form-control input-custom" id="">
+          </div>
+          <div class="form-group">
+            <label for="">주소</label>
+            <input type="text" class="form-control input-custom mb-2" id="">
+            <input type="text" class="form-control input-custom" id="">
+          </div>
+          
+          <div class="form-group">
+            <label for="mobile1">휴대폰 번호</label>
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control input-custom" id="mobile1">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control input-custom" id="mobile2">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control input-custom" id="mobile3">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="">배송시 요청사항</label>
+            <input type="text" class="form-control input-custom" id="">
+          </div>
+          <!-- 배송지//E -->
+        </div>
+      </div>
+      <!-- DELIVERY//E -->
+      <hr>
+      <!-- AGREE//S -->
+      <h4>개인정보이용방침</h4>
+      <div class="form-group">
+        <label for="">이용약관</label>
+        <textarea name="" id="" rows="10" class="form-control input-custom"></textarea>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            이용약관에 동의 합니다.
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="">비회원 구매 정보처리 방침</label>
+        <textarea name="" id="" rows="10" class="form-control input-custom"></textarea>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            비회원 구매 개인정보 처리 방침에 동의 합니다.
+          </label>
+        </div>
+      </div>
+      <!-- AGREE//E -->
+      <hr>
+      <!-- 결제정보//S -->
+      <h4>결제정보</h4>
+      <div class="form-group">
+        <label for="">결제수단</label>
+        <div class="payment-method mb-3">
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-white btn-custom mb-2 active">
+              <input type="radio" name="payMethod" id="option1" autocomplete="off" checked> PAYTAG
+            </label>
+            <label class="btn btn-white btn-custom mb-2">
+              <input type="radio" name="payMethod" id="option2" autocomplete="off"> 신용카드
+            </label>
+            <label class="btn btn-white btn-custom mb-2">
+              <input type="radio" name="payMethod" id="option3" autocomplete="off"> 휴대폰결제
+            </label>
+            <label class="btn btn-white btn-custom mb-2">
+              <input type="radio" name="payMethod" id="option4" autocomplete="off"> 실시간 계좌이체
+            </label>
+            <label class="btn btn-white btn-custom mb-2">
+              <input type="radio" name="payMethod" id="option5" autocomplete="off"> 무통장 입금
+            </label>
+          </div>
+        </div>
+        <p>* 카드혜택은 카드사별로 적용됩니다.</p>
+        <textarea name="" id="" rows="10" class="form-control input-custom"></textarea>
+      </div>
       
-      
+      <!-- 결제정보//E -->
+      <div class="row justify-content-center">
+        <div class="col col-lg-3">
+          <a href="./credit.html" class="btn btn-custom btn-lg btn-block btn-violet">구매하기</a>
+        </div>
+        <div class="col col-lg-3">
+          <a href="./index.html" class="btn btn-custom btn-lg btn-block btn-black">이전화면</a>
+        </div>
+      </div>
     </div>
     <!-- MID//E -->
     <!-- BOTTOM//S -->

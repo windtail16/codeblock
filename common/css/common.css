@@ -86,6 +86,7 @@ body {
   border-radius: 0;
 }
 
+
 /* HR */
 hr.black-1 {
   border-top: 1px solid rgba(0, 0, 0, 1);
@@ -183,4 +184,35 @@ hr.black-2 {
 .list-total-row {
   border-top: 1px #3f3f3f solid;
   border-bottom: 1px #b0b0b0 solid;
+}
+
+/* PAYMENT METHODS */
+.payment-method .btn-group-toggle {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.payment-method .btn-group-toggle .btn {
+  border-color: #a7a7a7;
+}
+
+.payment-method .btn:not(:disabled):not(.disabled).active, 
+.payment-method .btn:not(:disabled):not(.disabled):active, 
+.show>.btn-secondary.dropdown-toggle {
+  color: #707070;
+  border-color: #b41717;
+  -webkit-box-shadow: inset 0px 0px 3px 0px rgba(180,23,23,1);
+-moz-box-shadow: inset 0px 0px 3px 0px rgba(180,23,23,1);
+box-shadow: inset 0px 0px 3px 0px rgba(180,23,23,1);
+}
+
+
+
+/* Over Tarblet */
+@media (min-width: 768px) {
+  .payment-method .btn-group-toggle .btn + .btn {
+    margin-left: 10px;
+  }
 }
