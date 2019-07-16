@@ -83,5 +83,3 @@ function addHeight(){
 }
 
 addHeight();
-
-$(".payment-method.btn-group-toggle .btn-block").button('toggle');
