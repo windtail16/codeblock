@@ -81,6 +81,12 @@ body {
   color: #fff;
 }
 
+.btn-gray,
+.btn-gray:hover {
+  background-color: #707070;
+  color: #fff;
+}
+
 /* INPUT */
 .input-custom {
   border-radius: 0;
@@ -208,6 +214,43 @@ hr.black-2 {
 box-shadow: inset 0px 0px 3px 0px rgba(180,23,23,1);
 }
 
+/* board */
+.board-list {
+  border-bottom: 1px #000 solid;
+  margin-bottom: 20px;
+}
+
+.board-list .table {
+  margin-bottom: 60px;
+}
+
+.board-list .table thead th {
+  border-top: none;
+  border-bottom: 1px solid #000000;
+  color: #797979;
+}
+
+.board-list .table td {
+  border-top: none;
+  border-bottom: 1px solid #000000;
+}
+
+.board-list .table td,
+.board-list .table td a {
+  color: #757575;
+}
+
+/* Pagination */
+.pagination.black .page-link {
+  background-color: transparent;
+  color: #000;
+  border: none;
+}
+
+.pagination.black .page-item.active .page-link {
+  color: #eb416a;
+  background-color: transparent;
+}
 
 
 /* Over Tarblet */

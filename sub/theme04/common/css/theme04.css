@@ -133,18 +133,6 @@
   opacity: 1;
 }
 
-/* Pagination */
-.pagination.black .page-link {
-  background-color: transparent;
-  color: #000;
-  border: none;
-}
-
-.pagination.black .page-item.active .page-link {
-  color: #eb416a;
-  background-color: transparent;
-}
-
 
 /* FORM */
 .signin-form-wrap {
