@@ -87,6 +87,12 @@ body {
   color: #fff;
 }
 
+.more-link,
+.more-link:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
 /* INPUT */
 .input-custom {
   border-radius: 0;
@@ -171,6 +177,12 @@ hr.black-2 {
   margin: 0 auto;
 }
 
+.title-area.mypaage {
+  background-image: none;
+  background-color: #f5f5f5;
+  border-bottom: 1px #707070 solid;
+}
+
 /* CART */
 .list-top-row {
   border-top: 1px #000000 solid;
@@ -180,6 +192,12 @@ hr.black-2 {
 .list-mid-row {
   border-top: 1px #909090 solid;
   border-bottom: 1px #909090 solid;
+  color: #757575;
+}
+
+.list-mid-row a {
+  color: #757575;
+  text-decoration: none;
 }
 
 .list-bot-row {
@@ -252,10 +270,81 @@ box-shadow: inset 0px 0px 3px 0px rgba(180,23,23,1);
   background-color: transparent;
 }
 
+/* MY PAGE */
+.myinfo-wrap .card {
+  border-radius: 0;
+  border-color: #707070;
+  background-color: #f5f5f5;
+}
+.myinfo-wrap .card .profile-img {
+  border-radius: 50%;
+  border: 1px #848484 solid;
+}
+.myinfo-wrap .card-body.row.no-gutters {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.myinfo-wrap .card-body.row.no-gutters .col + .col {
+  border-left: 1px #707070 solid;
+}
+
+
+
+.myinfo-wrap .list-group-item {
+  border-color: #c2c2c2;
+}
+
+.myinfo-wrap .list-group-item:first-child,
+.myinfo-wrap .list-group-item:last-child {
+  border-radius: 0;
+}
+
+.mypage-wrap .order-link-btn,
+.mypage-wrap .order-link-btn:hover,
+.mypage-wrap .order-link-btn:visited {
+  background-color: #efcdfe;
+  color: #8200de;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #707070;
+}
+
+.mypage-wrap section {
+  
+}
 
 /* Over Tarblet */
 @media (min-width: 768px) {
   .payment-method .btn-group-toggle .btn + .btn {
     margin-left: 10px;
   }
+  .mypage-wrap .order-link-btn {
+    margin-left: -1px;
+  }
 }
+
+/* Only Mobile */
+@media (max-width: 767px) {
+  .myinfo-wrap .list-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-top: 1px solid #c2c2c2;
+    border-right: 1px solid #c2c2c2;
+  }
+  
+  .myinfo-wrap .list-group-item {
+    position: relative;
+    width: 100%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin: 0;
+    border-width: 0 0 1px 1px;
+  }
+}
+
+
